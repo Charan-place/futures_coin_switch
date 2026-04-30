@@ -1,49 +1,60 @@
-import { spawn, type ChildProcess } from "child_process";
+import { spawn } from "child_process";
 import path from "path";
 import fs from "fs";
+import os from "os";
 
 const BOT_DIR = path.resolve(process.cwd(), "..");
 const VENV_PY = path.join(BOT_DIR, "venv/bin/python");
 const PYTHON = fs.existsSync(VENV_PY) ? VENV_PY : "python3";
 
-let proc: ChildProcess | null = null;
-let mode: "paper" | "live" | null = null;
-let startedAt: Date | null = null;
+const PID_FILE = path.join(os.tmpdir(), "coin-bot.pid");
+const MODE_FILE = path.join(os.tmpdir(), "coin-bot.mode");
+const STARTED_FILE = path.join(os.tmpdir(), "coin-bot.started");
+
+function isRunning(pid: number): boolean {
+  try { process.kill(pid, 0); return true; } catch { return false; }
+}
+
+function cleanup() {
+  [PID_FILE, MODE_FILE, STARTED_FILE].forEach((f) => { try { fs.unlinkSync(f); } catch { /* ok */ } });
+}
+
+export function status() {
+  try {
+    if (!fs.existsSync(PID_FILE)) return { running: false, pid: null, mode: null, startedAt: null };
+    const pid = parseInt(fs.readFileSync(PID_FILE, "utf-8").trim(), 10);
+    if (!pid || !isRunning(pid)) { cleanup(); return { running: false, pid: null, mode: null, startedAt: null }; }
+    return {
+      running: true,
+      pid,
+      mode: fs.existsSync(MODE_FILE) ? fs.readFileSync(MODE_FILE, "utf-8").trim() : null,
+      startedAt: fs.existsSync(STARTED_FILE) ? fs.readFileSync(STARTED_FILE, "utf-8").trim() : null,
+    };
+  } catch { return { running: false, pid: null, mode: null, startedAt: null }; }
+}
 
 export function startBot(m: "paper" | "live") {
-  if (proc) throw new Error("Bot already running");
+  if (status().running) throw new Error("Bot already running");
 
-  proc = spawn(PYTHON, ["main.py", `--${m}`], {
+  const proc = spawn(PYTHON, ["main.py", `--${m}`], {
     cwd: BOT_DIR,
-    stdio: "pipe",
-    detached: false,
+    stdio: "ignore",
+    detached: true, // survives web server restarts and navigation
   });
+  proc.unref();
 
-  mode = m;
-  startedAt = new Date();
+  if (!proc.pid) throw new Error("Failed to spawn process");
 
-  proc.on("exit", () => {
-    proc = null;
-    mode = null;
-    startedAt = null;
-  });
+  fs.writeFileSync(PID_FILE, String(proc.pid));
+  fs.writeFileSync(MODE_FILE, m);
+  fs.writeFileSync(STARTED_FILE, new Date().toISOString());
 
   return status();
 }
 
 export function stopBot() {
-  if (!proc) throw new Error("Bot not running");
-  proc.kill("SIGTERM");
-  proc = null;
-  mode = null;
-  startedAt = null;
-}
-
-export function status() {
-  return {
-    running: proc !== null,
-    pid: proc?.pid ?? null,
-    mode,
-    startedAt: startedAt?.toISOString() ?? null,
-  };
+  const s = status();
+  if (!s.running || !s.pid) throw new Error("Bot not running");
+  try { process.kill(s.pid, "SIGTERM"); } catch { /* already gone */ }
+  cleanup();
 }

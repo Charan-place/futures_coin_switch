@@ -1,0 +1,199 @@
+03:24:09 [INFO] main: Scanning 8 pairs for signals...
+03:25:20 [INFO] main: Scanning 8 pairs for signals...
+03:26:26 [INFO] main: Scanning 8 pairs for signals...
+03:27:20 [INFO] main: Shutting down bot...
+03:27:20 [INFO] main: Final stats: {'balance': 24.0, 'peak_balance': 24.0, 'total_trades': 0, 'win_rate': 0, 'avg_win': 0, 'avg_loss': 0, 'daily_pnl': 0.0, 'drawdown_pct': 0.0, 'consecutive_losses': 0, 'open_positions': 0, 'trading_halted': False, 'halt_reason': ''}
+03:32:03 [INFO] strategies.confluence_engine: [DOGEUSDT] hype BLOCK — ghost town: vol=0.10x oi_Δ=+0.00%
+03:32:04 [INFO] strategies.confluence_engine: [SHIBUSDT] hype BLOCK — ghost town: vol=0.24x oi_Δ=+0.00%
+03:32:05 [INFO] strategies.confluence_engine: [PEPEUSDT] hype BLOCK — ghost town: vol=0.13x oi_Δ=+0.00%
+03:32:06 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype BLOCK — ghost town: vol=0.12x oi_Δ=+0.00%
+03:32:07 [INFO] strategies.confluence_engine: [BONKUSDT] hype BLOCK — ghost town: vol=0.07x oi_Δ=+0.00%
+03:32:08 [INFO] strategies.confluence_engine: [WIFUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+03:32:09 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.06x oi_Δ=+0.00%
+03:32:10 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.13x oi_Δ=+0.00%
+03:32:41 [INFO] main: Initializing bot in PAPER mode
+03:32:41 [INFO] main: Bot started. Press Ctrl+C to stop.
+03:32:41 [INFO] main: Scanning 8 pairs for signals...
+03:32:41 [INFO] strategies.confluence_engine: [DOGEUSDT] hype BLOCK — ghost town: vol=0.10x oi_Δ=+0.00%
+03:32:41 [INFO] main: SIGNAL: [22:02:41] LONG DOGEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.094060 | RSI=50.0 | vol
+03:32:41 [INFO] execution.trade_executor: Executing LONG DOGEUSDT | qty=235.224934 entry=0.0946 SL=0.0936 TP=0.0967 | R:R=2.00 | risk=1.00%
+03:32:41 [INFO] execution.trade_executor: [PAPER] Trade opened: T0001_DOGEUSDT
+03:32:41 [INFO] main: TRADE OPENED: T0001_DOGEUSDT LONG DOGEUSDT @ 0.0946 SL=0.0936 TP=0.0967
+03:32:42 [INFO] strategies.confluence_engine: [SHIBUSDT] hype BLOCK — ghost town: vol=0.25x oi_Δ=+0.00%
+03:32:42 [INFO] main: SIGNAL: [22:02:42] LONG SHIBUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=49.5 | vol
+03:32:42 [INFO] execution.trade_executor: Executing LONG SHIBUSDT | qty=3428571.428571 entry=0.0000 SL=0.0000 TP=0.0000 | R:R=2.00 | risk=1.00%
+03:32:42 [INFO] execution.trade_executor: [PAPER] Trade opened: T0002_SHIBUSDT
+03:32:42 [INFO] main: TRADE OPENED: T0002_SHIBUSDT LONG SHIBUSDT @ 0.0000 SL=0.0000 TP=0.0000
+03:32:43 [INFO] strategies.confluence_engine: [PEPEUSDT] hype BLOCK — ghost town: vol=0.19x oi_Δ=+0.00%
+03:32:43 [INFO] main: SIGNAL: [22:02:43] LONG PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000004 | RSI=49.4 | vol
+03:32:43 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:32:44 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype BLOCK — ghost town: vol=0.14x oi_Δ=+0.00%
+03:32:44 [INFO] main: SIGNAL: [22:02:44] LONG FLOKIUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000031 | RSI=47.6 | vol
+03:32:44 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:32:45 [INFO] strategies.confluence_engine: [BONKUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+03:32:45 [INFO] main: SIGNAL: [22:02:45] LONG BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=49.9 | vol
+03:32:45 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:32:47 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.06x oi_Δ=+0.00%
+03:32:47 [INFO] main: SIGNAL: [22:02:47] LONG 1000SATSUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000014 | RSI=53.3 | vol
+03:32:47 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:32:48 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.23x oi_Δ=+0.00%
+03:32:48 [INFO] main: SIGNAL: [22:02:48] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000567 | RSI=47.1 | vol
+03:32:48 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:33:51 [INFO] main: Scanning 8 pairs for signals...
+03:33:52 [INFO] strategies.confluence_engine: [PEPEUSDT] hype OK — vol=0.41x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:33:52 [INFO] main: SIGNAL: [22:03:52] LONG PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000004 | RSI=52.1 | vol
+03:33:52 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:33:53 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype BLOCK — ghost town: vol=0.16x oi_Δ=+0.00%
+03:33:53 [INFO] main: SIGNAL: [22:03:53] LONG FLOKIUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000031 | RSI=46.8 | vol
+03:33:53 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:33:53 [INFO] strategies.confluence_engine: [BONKUSDT] hype BLOCK — ghost town: vol=0.10x oi_Δ=+0.00%
+03:33:53 [INFO] main: SIGNAL: [22:03:53] LONG BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=49.9 | vol
+03:33:53 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:33:54 [INFO] strategies.confluence_engine: [WIFUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+03:33:54 [INFO] main: SIGNAL: [22:03:54] SHORT WIFUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.196000 | RSI=48.2 | v
+03:33:54 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:33:55 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+03:33:55 [INFO] main: SIGNAL: [22:03:55] LONG 1000SATSUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000014 | RSI=53.3 | vol
+03:33:55 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:33:55 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.24x oi_Δ=+0.00%
+03:33:55 [INFO] main: SIGNAL: [22:03:55] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=45.6 | vol
+03:33:55 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:34:52 [INFO] main: Scanning 8 pairs for signals...
+03:34:53 [INFO] strategies.confluence_engine: [PEPEUSDT] hype OK — vol=0.48x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:34:53 [INFO] main: SIGNAL: [22:04:53] LONG PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000004 | RSI=52.1 | vol
+03:34:53 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:34:54 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype BLOCK — ghost town: vol=0.17x oi_Δ=+0.00%
+03:34:54 [INFO] main: SIGNAL: [22:04:54] LONG FLOKIUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000031 | RSI=46.8 | vol
+03:34:54 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:34:55 [INFO] strategies.confluence_engine: [BONKUSDT] hype BLOCK — ghost town: vol=0.10x oi_Δ=+0.00%
+03:34:55 [INFO] main: SIGNAL: [22:04:55] LONG BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=49.9 | vol
+03:34:55 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:34:55 [INFO] strategies.confluence_engine: [WIFUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+03:34:55 [INFO] main: SIGNAL: [22:04:55] SHORT WIFUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.196000 | RSI=48.2 | v
+03:34:55 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:34:56 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.10x oi_Δ=+0.00%
+03:34:56 [INFO] main: SIGNAL: [22:04:56] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000014 | RSI=53.9 | vol
+03:34:56 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:34:57 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.25x oi_Δ=+0.00%
+03:34:57 [INFO] main: SIGNAL: [22:04:57] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=45.6 | vol
+03:34:57 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:36:12 [INFO] main: Scanning 8 pairs for signals...
+03:36:13 [INFO] strategies.confluence_engine: [PEPEUSDT] hype OK — vol=0.48x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:36:13 [INFO] main: SIGNAL: [22:06:13] LONG PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000004 | RSI=52.1 | vol
+03:36:13 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:36:13 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype BLOCK — ghost town: vol=0.19x oi_Δ=+0.00%
+03:36:13 [INFO] main: SIGNAL: [22:06:13] LONG FLOKIUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000031 | RSI=46.4 | vol
+03:36:13 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:36:14 [INFO] strategies.confluence_engine: [BONKUSDT] hype BLOCK — ghost town: vol=0.15x oi_Δ=+0.00%
+03:36:14 [INFO] main: SIGNAL: [22:06:14] LONG BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=49.9 | vol
+03:36:14 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:36:15 [INFO] strategies.confluence_engine: [WIFUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+03:36:15 [INFO] main: SIGNAL: [22:06:15] SHORT WIFUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.196000 | RSI=48.2 | v
+03:36:15 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:36:15 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.12x oi_Δ=+0.00%
+03:36:15 [INFO] main: SIGNAL: [22:06:15] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000014 | RSI=51.7 | vol
+03:36:15 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:36:16 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.26x oi_Δ=+0.00%
+03:36:16 [INFO] main: SIGNAL: [22:06:16] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=45.6 | vol
+03:36:16 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:37:18 [INFO] main: Scanning 8 pairs for signals...
+03:37:19 [INFO] strategies.confluence_engine: [PEPEUSDT] hype OK — vol=0.61x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:37:19 [INFO] main: SIGNAL: [22:07:19] LONG PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000004 | RSI=52.1 | vol
+03:37:19 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:37:20 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+03:37:20 [INFO] main: SIGNAL: [22:07:20] LONG FLOKIUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000031 | RSI=47.2 | vol
+03:37:20 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:37:21 [INFO] strategies.confluence_engine: [BONKUSDT] hype BLOCK — ghost town: vol=0.16x oi_Δ=+0.00%
+03:37:21 [INFO] main: SIGNAL: [22:07:21] LONG BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=48.3 | vol
+03:37:21 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:37:22 [INFO] strategies.confluence_engine: [WIFUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+03:37:22 [INFO] main: SIGNAL: [22:07:22] SHORT WIFUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.196000 | RSI=48.2 | v
+03:37:22 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:37:23 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.17x oi_Δ=+0.00%
+03:37:23 [INFO] main: SIGNAL: [22:07:23] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000014 | RSI=51.1 | vol
+03:37:23 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:37:24 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.26x oi_Δ=+0.00%
+03:37:24 [INFO] main: SIGNAL: [22:07:24] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000567 | RSI=47.1 | vol
+03:37:24 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:38:34 [INFO] main: Scanning 8 pairs for signals...
+03:38:34 [INFO] strategies.confluence_engine: [PEPEUSDT] hype OK — vol=0.65x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:38:34 [INFO] main: SIGNAL: [22:08:34] LONG PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000004 | RSI=49.4 | vol
+03:38:34 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:38:35 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype BLOCK — ghost town: vol=0.24x oi_Δ=+0.00%
+03:38:35 [INFO] main: SIGNAL: [22:08:35] LONG FLOKIUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000031 | RSI=45.4 | vol
+03:38:35 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:38:36 [INFO] strategies.confluence_engine: [BONKUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+03:38:36 [INFO] main: SIGNAL: [22:08:36] LONG BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=48.3 | vol
+03:38:36 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:38:37 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.22x oi_Δ=+0.00%
+03:38:37 [INFO] main: SIGNAL: [22:08:37] LONG 1000SATSUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000014 | RSI=49.9 | vol
+03:38:37 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:38:37 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.28x oi_Δ=+0.00%
+03:38:37 [INFO] main: SIGNAL: [22:08:37] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=45.6 | vol
+03:38:37 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:39:37 [INFO] main: Scanning 8 pairs for signals...
+03:39:38 [INFO] strategies.confluence_engine: [PEPEUSDT] hype OK — vol=0.65x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:39:38 [INFO] main: SIGNAL: [22:09:38] LONG PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000004 | RSI=52.1 | vol
+03:39:38 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:39:39 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype BLOCK — ghost town: vol=0.25x oi_Δ=+0.00%
+03:39:39 [INFO] main: SIGNAL: [22:09:39] LONG FLOKIUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000031 | RSI=46.8 | vol
+03:39:39 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:39:40 [INFO] strategies.confluence_engine: [BONKUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+03:39:40 [INFO] main: SIGNAL: [22:09:40] LONG BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=49.9 | vol
+03:39:40 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:39:46 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.25x oi_Δ=+0.00%
+03:39:46 [INFO] main: SIGNAL: [22:09:46] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000014 | RSI=50.5 | vol
+03:39:46 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:39:47 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.29x oi_Δ=+0.00%
+03:39:47 [INFO] main: SIGNAL: [22:09:47] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=44.1 | vol
+03:39:47 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:40:43 [INFO] main: Scanning 8 pairs for signals...
+03:40:44 [INFO] strategies.confluence_engine: [PEPEUSDT] hype OK — vol=0.71x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:40:44 [INFO] main: SIGNAL: [22:10:44] LONG PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000004 | RSI=52.1 | vol
+03:40:44 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:40:45 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype BLOCK — ghost town: vol=0.28x oi_Δ=+0.00%
+03:40:45 [INFO] main: SIGNAL: [22:10:45] LONG FLOKIUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000031 | RSI=47.6 | vol
+03:40:45 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:40:45 [INFO] strategies.confluence_engine: [BONKUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+03:40:45 [INFO] main: SIGNAL: [22:10:45] LONG BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=48.3 | vol
+03:40:45 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:40:46 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.25x oi_Δ=+0.00%
+03:40:46 [INFO] main: SIGNAL: [22:10:46] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000014 | RSI=48.8 | vol
+03:40:46 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:40:47 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.29x oi_Δ=+0.00%
+03:40:47 [INFO] main: SIGNAL: [22:10:47] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=45.6 | vol
+03:40:47 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:41:52 [INFO] main: Scanning 8 pairs for signals...
+03:41:53 [INFO] strategies.confluence_engine: [PEPEUSDT] hype OK — vol=0.84x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:41:53 [INFO] main: SIGNAL: [22:11:53] LONG PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000004 | RSI=54.6 | vol
+03:41:53 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:41:54 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype BLOCK — ghost town: vol=0.29x oi_Δ=+0.00%
+03:41:54 [INFO] main: SIGNAL: [22:11:54] LONG FLOKIUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000031 | RSI=47.6 | vol
+03:41:54 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:41:54 [INFO] strategies.confluence_engine: [BONKUSDT] hype OK — vol=0.39x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:41:54 [INFO] main: SIGNAL: [22:11:54] LONG BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=49.9 | vol
+03:41:54 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:41:56 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.26x oi_Δ=+0.00%
+03:41:56 [INFO] main: SIGNAL: [22:11:56] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000014 | RSI=52.3 | vol
+03:41:56 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:41:57 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.32x oi_Δ=+0.00% fund=0.002% bias=neutral
+03:41:57 [INFO] main: SIGNAL: [22:11:57] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=44.1 | vol
+03:41:57 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:43:08 [INFO] main: Scanning 8 pairs for signals...
+03:43:08 [INFO] strategies.confluence_engine: [PEPEUSDT] hype OK — vol=0.84x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:43:08 [INFO] main: SIGNAL: [22:13:08] LONG PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000004 | RSI=52.1 | vol
+03:43:08 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:43:09 [INFO] strategies.confluence_engine: [FLOKIUSDT] hype OK — vol=0.33x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:43:09 [INFO] main: SIGNAL: [22:13:09] LONG FLOKIUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000031 | RSI=47.6 | vol
+03:43:09 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:43:09 [INFO] strategies.confluence_engine: [BONKUSDT] hype OK — vol=0.42x oi_Δ=+0.00% fund=0.000% bias=neutral
+03:43:09 [INFO] main: SIGNAL: [22:13:09] LONG BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000006 | RSI=49.9 | vol
+03:43:09 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:43:11 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.27x oi_Δ=+0.00%
+03:43:11 [INFO] main: SIGNAL: [22:13:11] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000014 | RSI=51.7 | vol
+03:43:11 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:43:11 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.32x oi_Δ=+0.00% fund=0.002% bias=neutral
+03:43:11 [INFO] main: SIGNAL: [22:13:11] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=44.1 | vol
+03:43:11 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+03:44:03 [INFO] main: Shutting down bot...
+03:44:03 [INFO] main: Final stats: {'balance': 24.0, 'peak_balance': 24.0, 'total_trades': 0, 'win_rate': 0, 'avg_win': 0, 'avg_loss': 0, 'daily_pnl': 0.0, 'drawdown_pct': 0.0, 'consecutive_losses': 0, 'open_positions': 2, 'trading_halted': False, 'halt_reason': ''}

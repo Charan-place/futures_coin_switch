@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//private/tmp/**)",
+      "Bash(python3 -c \"import sys; content = sys.stdin.read\\(\\); idx = content.find\\('get_signature'\\); print\\(content[max\\(0,idx-100\\):min\\(len\\(content\\),idx+3000\\)]\\)\")"
+    ]
+  }
+}

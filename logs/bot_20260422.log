@@ -1,0 +1,1383 @@
+11:43:51 [INFO] main: Initializing bot in PAPER mode
+11:43:51 [INFO] main: Bot started. Press Ctrl+C to stop.
+11:43:51 [INFO] main: Scanning 8 pairs for signals...
+11:43:53 [INFO] strategies.confluence_engine: [DOGEUSDT] hype OK — vol=0.43x oi_Δ=+0.00% fund=0.010% bias=neutral
+11:43:53 [INFO] main: SIGNAL: [06:13:53] SHORT DOGEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.097700 | RSI=68.9 | v
+11:43:53 [INFO] execution.trade_executor: Executing SHORT DOGEUSDT | qty=214.573089 entry=0.0971 SL=0.0982 TP=0.0948 | R:R=2.00 | risk=1.00%
+11:43:53 [INFO] execution.trade_executor: [PAPER] Trade opened: T0001_DOGEUSDT
+11:43:53 [INFO] main: TRADE OPENED: T0001_DOGEUSDT SHORT DOGEUSDT @ 0.0971 SL=0.0982 TP=0.0948
+11:43:54 [INFO] strategies.confluence_engine: [SHIBUSDT] hype OK — vol=0.74x oi_Δ=+0.00% fund=0.000% bias=neutral
+11:43:54 [INFO] main: SIGNAL: [06:13:54] SHORT SHIBUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000006 | RSI=61.9 | v
+11:43:54 [INFO] execution.trade_executor: Executing SHORT SHIBUSDT | qty=2955665.024631 entry=0.0000 SL=0.0000 TP=0.0000 | R:R=2.00 | risk=1.00%
+11:43:54 [INFO] execution.trade_executor: [PAPER] Trade opened: T0002_SHIBUSDT
+11:43:54 [INFO] main: TRADE OPENED: T0002_SHIBUSDT SHORT SHIBUSDT @ 0.0000 SL=0.0000 TP=0.0000
+11:44:00 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype OK — vol=0.34x oi_Δ=+0.00% fund=0.005% bias=neutral
+11:44:00 [INFO] main: SIGNAL: [06:14:00] SHORT 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000015 | RSI=55.7 | v
+11:44:00 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:44:02 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.63x oi_Δ=+0.00% fund=0.005% bias=neutral
+11:44:02 [INFO] main: SIGNAL: [06:14:02] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000588 | RSI=57.1 | v
+11:44:02 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:44:53 [INFO] main: Scanning 8 pairs for signals...
+11:44:55 [INFO] strategies.confluence_engine: [PEPEUSDT] hype OK — vol=0.96x oi_Δ=+0.00% fund=0.000% bias=neutral
+11:44:55 [INFO] main: SIGNAL: [06:14:55] SHORT PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000004 | RSI=53.0 | v
+11:44:55 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:44:59 [INFO] strategies.confluence_engine: [WIFUSDT] hype OK — vol=1.77x oi_Δ=+0.00% fund=0.005% bias=neutral
+11:44:59 [INFO] main: SIGNAL: [06:14:59] SHORT WIFUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.205000 | RSI=67.8 | v
+11:44:59 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:45:00 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype OK — vol=0.48x oi_Δ=+0.00% fund=0.005% bias=neutral
+11:45:00 [INFO] main: SIGNAL: [06:15:00] SHORT 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000015 | RSI=55.0 | v
+11:45:00 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:45:02 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+11:45:02 [INFO] main: SIGNAL: [06:15:02] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000588 | RSI=57.1 | v
+11:45:02 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:45:55 [INFO] main: Scanning 8 pairs for signals...
+11:46:00 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.13x oi_Δ=+0.00%
+11:46:00 [INFO] main: SIGNAL: [06:16:00] SHORT 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000015 | RSI=55.6 | v
+11:46:00 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:46:00 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+11:46:00 [INFO] main: SIGNAL: [06:16:00] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000588 | RSI=57.1 | v
+11:46:00 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:46:56 [INFO] main: Scanning 8 pairs for signals...
+11:47:04 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.13x oi_Δ=+0.00%
+11:47:04 [INFO] main: SIGNAL: [06:17:04] SHORT 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000015 | RSI=55.6 | v
+11:47:04 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:47:05 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+11:47:05 [INFO] main: SIGNAL: [06:17:05] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000588 | RSI=57.1 | v
+11:47:05 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:47:58 [INFO] main: Scanning 8 pairs for signals...
+11:48:01 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.14x oi_Δ=+0.00%
+11:48:01 [INFO] main: SIGNAL: [06:18:01] SHORT 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000015 | RSI=56.1 | v
+11:48:01 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:48:02 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+11:48:02 [INFO] main: SIGNAL: [06:18:02] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000588 | RSI=57.1 | v
+11:48:02 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:49:00 [INFO] main: Scanning 8 pairs for signals...
+11:49:04 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.14x oi_Δ=+0.00%
+11:49:04 [INFO] main: SIGNAL: [06:19:04] SHORT 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000015 | RSI=56.1 | v
+11:49:04 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:49:04 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.06x oi_Δ=+0.00%
+11:49:04 [INFO] main: SIGNAL: [06:19:04] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000581 | RSI=54.8 | vol
+11:49:04 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:50:03 [INFO] main: Scanning 8 pairs for signals...
+11:50:06 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.16x oi_Δ=+0.00%
+11:50:06 [INFO] main: SIGNAL: [06:20:06] SHORT 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000015 | RSI=56.6 | v
+11:50:06 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:50:07 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+11:50:07 [INFO] main: SIGNAL: [06:20:07] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000581 | RSI=54.8 | vol
+11:50:07 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:51:04 [INFO] main: Scanning 8 pairs for signals...
+11:51:07 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.18x oi_Δ=+0.00%
+11:51:07 [INFO] main: SIGNAL: [06:21:07] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000015 | RSI=53.1 | vol
+11:51:07 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:51:08 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.13x oi_Δ=+0.00%
+11:51:08 [INFO] main: SIGNAL: [06:21:08] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000581 | RSI=54.8 | vol
+11:51:08 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:52:09 [INFO] main: Scanning 8 pairs for signals...
+11:52:12 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.27x oi_Δ=+0.00%
+11:52:12 [INFO] main: SIGNAL: [06:22:12] SHORT 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000015 | RSI=55.0 | v
+11:52:12 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:52:13 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.39x oi_Δ=+0.00% fund=0.005% bias=neutral
+11:52:13 [INFO] main: SIGNAL: [06:22:13] SHORT MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000588 | RSI=52.7 | v
+11:52:13 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:53:13 [INFO] main: Scanning 8 pairs for signals...
+11:53:16 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.28x oi_Δ=+0.00%
+11:53:16 [INFO] main: SIGNAL: [06:23:16] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000015 | RSI=52.5 | vol
+11:53:16 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:53:17 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.63x oi_Δ=+0.00% fund=0.005% bias=neutral
+11:53:17 [INFO] main: SIGNAL: [06:23:17] SHORT MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000588 | RSI=52.7 | v
+11:53:17 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:54:14 [INFO] main: Scanning 8 pairs for signals...
+11:54:16 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.28x oi_Δ=+0.00%
+11:54:16 [INFO] main: SIGNAL: [06:24:16] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000015 | RSI=52.5 | vol
+11:54:16 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:54:17 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.67x oi_Δ=+0.00% fund=0.005% bias=neutral
+11:54:17 [INFO] main: SIGNAL: [06:24:17] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000581 | RSI=54.8 | vol
+11:54:17 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:55:19 [INFO] main: Scanning 8 pairs for signals...
+11:55:22 [INFO] strategies.confluence_engine: [1000SATSUSDT] hype BLOCK — ghost town: vol=0.29x oi_Δ=+0.00%
+11:55:22 [INFO] main: SIGNAL: [06:25:22] LONG 1000SATSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000015 | RSI=52.5 | vol
+11:55:22 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:55:23 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.79x oi_Δ=+0.00% fund=0.005% bias=neutral
+11:55:23 [INFO] main: SIGNAL: [06:25:23] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000581 | RSI=54.8 | vol
+11:55:23 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (2)
+11:55:28 [INFO] main: Initializing bot in PAPER mode
+11:55:36 [INFO] main: Shutting down bot...
+11:55:36 [INFO] main: Final stats: {'balance': 24.0, 'peak_balance': 24.0, 'total_trades': 0, 'win_rate': 0, 'avg_win': 0, 'avg_loss': 0, 'daily_pnl': 0.0, 'drawdown_pct': 0.0, 'consecutive_losses': 0, 'open_positions': 2, 'trading_halted': False, 'halt_reason': ''}
+11:55:39 [INFO] main: Initializing bot in PAPER mode
+11:55:39 [INFO] main: Bot started. Press Ctrl+C to stop.
+11:55:39 [INFO] main: Scanning 12 pairs for signals...
+11:55:39 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=15m&limit=200
+11:55:39 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=1h&limit=200
+11:55:39 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=4h&limit=200
+11:55:40 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=15m&limit=200
+11:55:40 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=1h&limit=200
+11:55:40 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=4h&limit=200
+11:55:41 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=15m&limit=200
+11:55:41 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=1h&limit=200
+11:55:41 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=4h&limit=200
+11:55:41 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=15m&limit=200
+11:55:41 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=1h&limit=200
+11:55:41 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=4h&limit=200
+11:55:42 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=15m&limit=200
+11:55:42 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=1h&limit=200
+11:55:42 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=4h&limit=200
+11:55:42 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=15m&limit=200
+11:55:42 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=1h&limit=200
+11:55:42 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=4h&limit=200
+11:55:45 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.79x oi_Δ=+0.00% fund=0.005% bias=neutral
+11:55:45 [INFO] main: SIGNAL: [06:25:45] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000581 | RSI=54.8 | vol
+11:55:45 [INFO] execution.trade_executor: Executing LONG MEMEUSDT | qty=40643.522439 entry=0.0006 SL=0.0006 TP=0.0006 | R:R=2.00 | risk=1.00%
+11:55:45 [INFO] execution.trade_executor: [PAPER] Trade opened: T0001_MEMEUSDT
+11:55:45 [INFO] main: TRADE OPENED: T0001_MEMEUSDT LONG MEMEUSDT @ 0.0006 SL=0.0006 TP=0.0006
+11:56:41 [INFO] main: Scanning 12 pairs for signals...
+11:56:41 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=15m&limit=200
+11:56:42 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=1h&limit=200
+11:56:42 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=4h&limit=200
+11:56:42 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=15m&limit=200
+11:56:42 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=1h&limit=200
+11:56:42 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=4h&limit=200
+11:56:43 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=15m&limit=200
+11:56:43 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=1h&limit=200
+11:56:43 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=4h&limit=200
+11:56:44 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=15m&limit=200
+11:56:44 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=1h&limit=200
+11:56:44 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=4h&limit=200
+11:56:44 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=15m&limit=200
+11:56:44 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=1h&limit=200
+11:56:44 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=4h&limit=200
+11:56:45 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=15m&limit=200
+11:56:45 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=1h&limit=200
+11:56:45 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=4h&limit=200
+11:57:48 [INFO] main: Scanning 12 pairs for signals...
+11:57:48 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=15m&limit=200
+11:57:48 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=1h&limit=200
+11:57:48 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=4h&limit=200
+11:57:48 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=15m&limit=200
+11:57:48 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=1h&limit=200
+11:57:49 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=4h&limit=200
+11:57:50 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.33x oi_Δ=+0.00% fund=0.010% bias=neutral
+11:57:50 [INFO] main: SIGNAL: [06:27:50] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=65.9 | v
+11:57:50 [WARNING] execution.trade_executor: Invalid signal for GALAUSDT: R:R=1.29
+11:57:50 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=15m&limit=200
+11:57:50 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=1h&limit=200
+11:57:50 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=4h&limit=200
+11:57:50 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=15m&limit=200
+11:57:50 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=1h&limit=200
+11:57:51 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=4h&limit=200
+11:57:51 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=15m&limit=200
+11:57:51 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=1h&limit=200
+11:57:51 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=4h&limit=200
+11:57:51 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=15m&limit=200
+11:57:51 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=1h&limit=200
+11:57:52 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=4h&limit=200
+11:59:55 [INFO] main: Scanning 12 pairs for signals...
+11:59:55 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=15m&limit=200
+11:59:55 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=1h&limit=200
+11:59:56 [ERROR] core.data_fetcher: Binance candles failed for 1000PEPEUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000PEPEUSDT&interval=4h&limit=200
+11:59:56 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=15m&limit=200
+11:59:56 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=1h&limit=200
+11:59:56 [ERROR] core.data_fetcher: Binance candles failed for FIGHTUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=FIGHTUSDT&interval=4h&limit=200
+11:59:56 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=15m&limit=200
+11:59:57 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=1h&limit=200
+11:59:57 [ERROR] core.data_fetcher: Binance candles failed for XANUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=XANUSDT&interval=4h&limit=200
+11:59:57 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=15m&limit=200
+11:59:57 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=1h&limit=200
+11:59:57 [ERROR] core.data_fetcher: Binance candles failed for 1000BONKUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=1000BONKUSDT&interval=4h&limit=200
+11:59:57 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=15m&limit=200
+11:59:58 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=1h&limit=200
+11:59:58 [ERROR] core.data_fetcher: Binance candles failed for BLESSUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=BLESSUSDT&interval=4h&limit=200
+11:59:58 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 15m: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=15m&limit=200
+11:59:58 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 1h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=1h&limit=200
+11:59:58 [ERROR] core.data_fetcher: Binance candles failed for JCTUSDT 4h: 400 Client Error: Bad Request for url: https://api.binance.com/api/v3/klines?symbol=JCTUSDT&interval=4h&limit=200
+12:00:45 [INFO] main: Shutting down bot...
+12:00:45 [INFO] main: Final stats: {'balance': 24.0, 'peak_balance': 24.0, 'total_trades': 0, 'win_rate': 0, 'avg_win': 0, 'avg_loss': 0, 'daily_pnl': 0.0, 'drawdown_pct': 0.0, 'consecutive_losses': 0, 'open_positions': 1, 'trading_halted': False, 'halt_reason': ''}
+12:01:24 [INFO] main: Initializing bot in PAPER mode
+12:01:24 [INFO] main: Bot started. Press Ctrl+C to stop.
+12:01:24 [INFO] main: Scanning 12 pairs for signals...
+12:01:27 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+12:01:27 [INFO] main: SIGNAL: [06:31:27] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003773 | RSI=48.7 | vol
+12:01:27 [INFO] execution.trade_executor: Executing LONG FIGHTUSDT | qty=5014.102162 entry=0.0038 SL=0.0038 TP=0.0039 | R:R=2.00 | risk=1.00%
+12:01:27 [INFO] execution.trade_executor: [PAPER] Trade opened: T0001_FIGHTUSDT
+12:01:27 [INFO] main: TRADE OPENED: T0001_FIGHTUSDT LONG FIGHTUSDT @ 0.0038 SL=0.0038 TP=0.0039
+12:01:29 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.15x oi_Δ=+0.00%
+12:01:29 [INFO] main: SIGNAL: [06:31:29] LONG XANUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008344 | RSI=54.2 | vol
+12:01:29 [WARNING] execution.trade_executor: Invalid signal for XANUSDT: R:R=1.17
+12:01:31 [INFO] strategies.confluence_engine: [BLESSUSDT] hype BLOCK — ghost town: vol=0.02x oi_Δ=+0.00%
+12:01:31 [INFO] main: SIGNAL: [06:31:31] SHORT BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.006170 | RSI=58.9 | v
+12:01:31 [INFO] execution.trade_executor: Executing SHORT BLESSUSDT | qty=3043.753963 entry=0.0061 SL=0.0062 TP=0.0060 | R:R=2.00 | risk=1.00%
+12:01:31 [INFO] execution.trade_executor: [PAPER] Trade opened: T0002_BLESSUSDT
+12:01:31 [INFO] main: TRADE OPENED: T0002_BLESSUSDT SHORT BLESSUSDT @ 0.0061 SL=0.0062 TP=0.0060
+12:01:33 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.07x oi_Δ=+0.00%
+12:01:33 [INFO] main: SIGNAL: [06:31:33] LONG JCTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.002443 | RSI=48.2 | vol
+12:01:33 [INFO] execution.trade_executor: Executing LONG JCTUSDT | qty=8506.113769 entry=0.0025 SL=0.0024 TP=0.0025 | R:R=2.00 | risk=1.00%
+12:01:33 [INFO] execution.trade_executor: [PAPER] Trade opened: T0003_JCTUSDT
+12:01:33 [INFO] main: TRADE OPENED: T0003_JCTUSDT LONG JCTUSDT @ 0.0025 SL=0.0024 TP=0.0025
+12:01:35 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.21x oi_Δ=+0.00%
+12:01:35 [INFO] main: SIGNAL: [06:31:35] SHORT MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000588 | RSI=52.7 | v
+12:01:35 [INFO] execution.trade_executor: Executing SHORT MEMEUSDT | qty=30226.700252 entry=0.0006 SL=0.0006 TP=0.0006 | R:R=2.00 | risk=1.00%
+12:01:35 [INFO] execution.trade_executor: [PAPER] Trade opened: T0004_MEMEUSDT
+12:01:35 [INFO] main: TRADE OPENED: T0004_MEMEUSDT SHORT MEMEUSDT @ 0.0006 SL=0.0006 TP=0.0006
+12:02:29 [INFO] main: Scanning 12 pairs for signals...
+12:02:31 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+12:02:31 [INFO] main: SIGNAL: [06:32:31] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=65.9 | v
+12:02:31 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+12:02:35 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.12x oi_Δ=+0.00%
+12:02:35 [INFO] main: SIGNAL: [06:32:35] SHORT GPSUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.009510 | RSI=56.1 | v
+12:02:35 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+12:03:30 [INFO] main: Scanning 12 pairs for signals...
+12:04:35 [INFO] main: Scanning 12 pairs for signals...
+12:15:34 [INFO] main: Scanning 12 pairs for signals...
+12:15:37 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.05x oi_Δ=+0.00%
+12:15:37 [INFO] main: SIGNAL: [06:45:37] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=63.4 | v
+12:15:37 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+12:15:42 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.02x oi_Δ=+0.00%
+12:15:42 [INFO] main: SIGNAL: [06:45:42] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009540 | RSI=56.9 | v
+12:15:42 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+12:16:40 [INFO] main: Scanning 12 pairs for signals...
+12:16:43 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.18x oi_Δ=+0.00%
+12:16:43 [INFO] main: SIGNAL: [06:46:43] SHORT XANUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.008415 | RSI=49.3 | v
+12:16:43 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+12:17:41 [INFO] main: Scanning 12 pairs for signals...
+12:18:43 [INFO] main: Scanning 12 pairs for signals...
+12:19:43 [INFO] main: Scanning 12 pairs for signals...
+12:34:34 [INFO] main: Scanning 12 pairs for signals...
+12:34:39 [INFO] strategies.confluence_engine: [XANUSDT] hype OK — vol=0.50x oi_Δ=+0.00% fund=0.005% bias=neutral
+12:34:39 [INFO] main: SIGNAL: [07:04:39] SHORT XANUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.008415 | RSI=49.0 | v
+12:34:39 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+12:34:43 [INFO] strategies.confluence_engine: [GPSUSDT] hype OK — vol=0.34x oi_Δ=+0.00% fund=0.005% bias=neutral
+12:34:43 [INFO] main: SIGNAL: [07:04:43] LONG GPSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.009320 | RSI=49.6 | vol
+12:34:43 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+12:35:39 [INFO] main: Scanning 12 pairs for signals...
+12:36:43 [INFO] main: Scanning 12 pairs for signals...
+12:37:49 [INFO] main: Scanning 12 pairs for signals...
+12:53:09 [INFO] main: Scanning 12 pairs for signals...
+12:53:12 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.16x oi_Δ=+0.00%
+12:53:12 [INFO] main: SIGNAL: [07:23:12] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=63.1 | v
+12:53:12 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+12:53:14 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.21x oi_Δ=+0.00%
+12:53:14 [INFO] main: SIGNAL: [07:23:14] SHORT XANUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.008415 | RSI=50.3 | v
+12:53:14 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+12:53:18 [INFO] strategies.confluence_engine: [GPSUSDT] hype OK — vol=0.54x oi_Δ=+0.00% fund=0.005% bias=neutral
+12:53:18 [INFO] main: SIGNAL: [07:23:18] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009540 | RSI=56.8 | v
+12:53:18 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:08:42 [INFO] main: Scanning 12 pairs for signals...
+13:08:44 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.22x oi_Δ=+0.00%
+13:08:44 [INFO] main: SIGNAL: [07:38:44] SHORT 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003899 | RSI=51.3 | v
+13:08:44 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:08:44 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.24x oi_Δ=+0.00%
+13:08:44 [INFO] main: SIGNAL: [07:38:44] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=59.2 | v
+13:08:44 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:08:46 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.30x oi_Δ=+0.00%
+13:08:46 [INFO] main: SIGNAL: [07:38:46] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008312 | RSI=51.9 | vol
+13:08:46 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:08:47 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.17x oi_Δ=+0.00%
+13:08:47 [INFO] main: SIGNAL: [07:38:47] SHORT 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.006390 | RSI=61.8 | v
+13:08:47 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:08:49 [INFO] strategies.confluence_engine: [PENGUUSDT] hype OK — vol=0.46x oi_Δ=+0.00% fund=0.000% bias=neutral
+13:08:49 [INFO] main: SIGNAL: [07:38:49] SHORT PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.008158 | RSI=58.4 | v
+13:08:49 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:10:43 [INFO] main: Scanning 12 pairs for signals...
+13:25:46 [INFO] strategies.confluence_engine: [GPSUSDT] hype OK — vol=0.41x oi_Δ=+0.00% fund=0.005% bias=neutral
+13:25:46 [INFO] main: SIGNAL: [07:55:46] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009650 | RSI=64.6 | v
+13:25:46 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:26:09 [INFO] main: Scanning 12 pairs for signals...
+13:26:10 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.21x oi_Δ=+0.00%
+13:26:10 [INFO] main: SIGNAL: [07:56:10] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003856 | RSI=53.0 | vol
+13:26:10 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:26:11 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.33x oi_Δ=+0.00% fund=0.010% bias=neutral
+13:26:11 [INFO] main: SIGNAL: [07:56:11] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=60.2 | v
+13:26:11 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:26:13 [INFO] strategies.confluence_engine: [XANUSDT] hype OK — vol=1.19x oi_Δ=+0.00% fund=0.005% bias=neutral
+13:26:13 [INFO] main: SIGNAL: [07:56:13] SHORT XANUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.008377 | RSI=47.1 | v
+13:26:13 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:56:51 [INFO] main: Scanning 12 pairs for signals...
+13:56:53 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.18x oi_Δ=+0.00%
+13:56:53 [INFO] main: SIGNAL: [08:26:53] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=59.6 | v
+13:56:53 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+13:56:58 [INFO] strategies.confluence_engine: [GPSUSDT] hype OK — vol=2.59x oi_Δ=+0.00% fund=0.005% bias=neutral
+13:56:58 [INFO] main: SIGNAL: [08:26:58] SHORT GPSUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.009510 | RSI=48.6 | v
+13:56:58 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+14:12:14 [INFO] main: Scanning 12 pairs for signals...
+14:12:16 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=0.57x oi_Δ=+0.00% fund=0.010% bias=neutral
+14:12:16 [INFO] main: SIGNAL: [08:42:16] SHORT 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003932 | RSI=58.0 | v
+14:12:16 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+14:12:18 [INFO] strategies.confluence_engine: [XANUSDT] hype OK — vol=1.03x oi_Δ=+0.00% fund=0.005% bias=neutral
+14:12:18 [INFO] main: SIGNAL: [08:42:18] LONG XANUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008344 | RSI=55.0 | vol
+14:12:18 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+14:12:20 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.60x oi_Δ=+0.00% fund=0.005% bias=neutral
+14:12:20 [INFO] main: SIGNAL: [08:42:20] SHORT 1000BONKUSDT | conf=0.75 | [CONFLUENCE x1] Reject at resistance 0.006446 | RSI=71.7 | v
+14:12:20 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+14:12:22 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=0.32x oi_Δ=+0.00% fund=-0.011% bias=neutral
+14:12:22 [INFO] main: SIGNAL: [08:42:22] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=54.0 | vol
+14:12:22 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+14:12:23 [INFO] strategies.confluence_engine: [GPSUSDT] hype OK — vol=0.90x oi_Δ=+0.00% fund=0.005% bias=neutral
+14:12:23 [INFO] main: SIGNAL: [08:42:23] LONG GPSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.009320 | RSI=46.4 | vol
+14:12:23 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+14:12:24 [INFO] execution.trade_executor: ❌ [PAPER] STOP_LOSS: FIGHTUSDT LONG entry=0.0038 exit=0.0037 PnL=$-0.30 (-1.58%)
+14:27:44 [INFO] main: Scanning 12 pairs for signals...
+14:27:47 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.79x oi_Δ=+0.00% fund=0.005% bias=neutral
+14:27:47 [INFO] main: SIGNAL: [08:57:47] LONG FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003716 | RSI=41.6 | vol
+14:27:47 [WARNING] execution.trade_executor: Invalid signal for FIGHTUSDT: R:R=1.14
+14:27:52 [INFO] strategies.confluence_engine: [GPSUSDT] hype OK — vol=0.33x oi_Δ=+0.00% fund=0.005% bias=neutral
+14:27:52 [INFO] main: SIGNAL: [08:57:52] LONG GPSUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.009320 | RSI=45.0 | vol
+14:27:52 [INFO] execution.trade_executor: Executing LONG GPSUSDT | qty=2453.328558 entry=0.0094 SL=0.0093 TP=0.0096 | R:R=2.00 | risk=1.00%
+14:27:52 [INFO] execution.trade_executor: [PAPER] Trade opened: T0005_GPSUSDT
+14:27:52 [INFO] main: TRADE OPENED: T0005_GPSUSDT LONG GPSUSDT @ 0.0094 SL=0.0093 TP=0.0096
+14:39:01 [INFO] execution.trade_executor: ❌ [PAPER] STOP_LOSS: MEMEUSDT SHORT entry=0.0006 exit=0.0006 PnL=$-0.25 (-1.44%)
+14:39:08 [INFO] main: Scanning 12 pairs for signals...
+14:39:10 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.52x oi_Δ=+0.00% fund=0.005% bias=neutral
+14:39:10 [INFO] main: SIGNAL: [09:09:10] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003716 | RSI=42.3 | vol
+14:39:10 [INFO] execution.trade_executor: Executing LONG FIGHTUSDT | qty=5259.140778 entry=0.0037 SL=0.0037 TP=0.0038 | R:R=2.00 | risk=1.00%
+14:39:10 [INFO] execution.trade_executor: [PAPER] Trade opened: T0006_FIGHTUSDT
+14:39:10 [INFO] main: TRADE OPENED: T0006_FIGHTUSDT LONG FIGHTUSDT @ 0.0037 SL=0.0037 TP=0.0038
+14:39:12 [INFO] strategies.confluence_engine: [XANUSDT] hype OK — vol=1.91x oi_Δ=+0.00% fund=0.005% bias=neutral
+14:39:12 [INFO] main: SIGNAL: [09:09:12] SHORT XANUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.008484 | RSI=58.7 | v
+14:39:12 [INFO] execution.trade_executor: Executing SHORT XANUSDT | qty=2483.080871 entry=0.0084 SL=0.0085 TP=0.0082 | R:R=2.00 | risk=1.00%
+14:39:12 [INFO] execution.trade_executor: [PAPER] Trade opened: T0007_XANUSDT
+14:39:12 [INFO] main: TRADE OPENED: T0007_XANUSDT SHORT XANUSDT @ 0.0084 SL=0.0085 TP=0.0082
+14:54:26 [INFO] main: Scanning 12 pairs for signals...
+14:54:27 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.25x oi_Δ=+0.00%
+14:54:27 [INFO] main: SIGNAL: [09:24:27] SHORT 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003932 | RSI=60.0 | v
+14:54:27 [INFO] execution.trade_executor: Executing SHORT 1000PEPEUSDT | qty=4627.869483 entry=0.0039 SL=0.0040 TP=0.0038 | R:R=2.00 | risk=1.00%
+14:54:27 [INFO] execution.trade_executor: [PAPER] Trade opened: T0008_1000PEPEUSDT
+14:54:27 [INFO] main: TRADE OPENED: T0008_1000PEPEUSDT SHORT 1000PEPEUSDT @ 0.0039 SL=0.0040 TP=0.0038
+14:54:28 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.33x oi_Δ=+0.00% fund=0.010% bias=neutral
+14:54:28 [INFO] main: SIGNAL: [09:24:28] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=56.7 | v
+14:54:28 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+14:54:31 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+14:54:31 [INFO] main: SIGNAL: [09:24:31] SHORT BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000575 | RSI=55.8 | v
+14:54:31 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+15:09:57 [INFO] main: Scanning 12 pairs for signals...
+15:09:58 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.29x oi_Δ=+0.00%
+15:09:58 [INFO] main: SIGNAL: [09:39:58] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=56.7 | v
+15:09:58 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+15:10:03 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.26x oi_Δ=+0.00%
+15:10:03 [INFO] main: SIGNAL: [09:40:03] SHORT BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000575 | RSI=55.7 | v
+15:10:03 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+15:10:04 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.81x oi_Δ=+0.00% fund=0.005% bias=neutral
+15:10:04 [INFO] main: SIGNAL: [09:40:04] SHORT MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000591 | RSI=54.2 | v
+15:10:04 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+15:25:20 [INFO] main: Scanning 12 pairs for signals...
+15:25:21 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=1.80x oi_Δ=+0.00% fund=0.010% bias=neutral
+15:25:21 [INFO] main: SIGNAL: [09:55:21] SHORT GALAUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=52.0 | v
+15:25:21 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+15:25:23 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.36x oi_Δ=+0.00% fund=0.005% bias=neutral
+15:25:23 [INFO] main: SIGNAL: [09:55:23] SHORT 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.006446 | RSI=63.4 | v
+15:25:23 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+15:25:25 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.18x oi_Δ=+0.00%
+15:25:25 [INFO] main: SIGNAL: [09:55:25] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000561 | RSI=49.8 | vol
+15:25:25 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+15:25:26 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.32x oi_Δ=+0.00% fund=0.005% bias=neutral
+15:25:26 [INFO] main: SIGNAL: [09:55:26] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000583 | RSI=52.2 | vol
+15:25:26 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+15:40:00 [INFO] execution.trade_executor: ✅ [PAPER] TAKE_PROFIT: JCTUSDT LONG entry=0.0025 exit=0.0025 PnL=$0.59 (+2.82%)
+15:40:00 [INFO] execution.trade_executor: ❌ [PAPER] STOP_LOSS: XANUSDT SHORT entry=0.0084 exit=0.0088 PnL=$-0.90 (-4.31%)
+15:40:07 [INFO] main: Scanning 12 pairs for signals...
+15:40:10 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.54x oi_Δ=+0.00% fund=0.005% bias=neutral
+15:40:10 [INFO] main: SIGNAL: [10:10:10] SHORT 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.006446 | RSI=58.2 | v
+15:40:10 [INFO] execution.trade_executor: Executing SHORT 1000BONKUSDT | qty=2746.552954 entry=0.0064 SL=0.0065 TP=0.0062 | R:R=2.00 | risk=1.00%
+15:40:10 [INFO] execution.trade_executor: [PAPER] Trade opened: T0009_1000BONKUSDT
+15:40:10 [INFO] main: TRADE OPENED: T0009_1000BONKUSDT SHORT 1000BONKUSDT @ 0.0064 SL=0.0065 TP=0.0062
+15:55:23 [INFO] main: Scanning 12 pairs for signals...
+15:55:24 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.97x oi_Δ=+0.00% fund=0.010% bias=neutral
+15:55:24 [INFO] main: SIGNAL: [10:25:24] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003230 | RSI=41.1 | vol
+15:55:24 [WARNING] execution.trade_executor: Trade blocked: Portfolio risk limit hit (5.0% / 5.0%)
+15:55:27 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=1.60x oi_Δ=+0.00% fund=0.005% bias=neutral
+15:55:27 [INFO] main: SIGNAL: [10:25:27] SHORT JCTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.002504 | RSI=53.2 | v
+15:55:27 [WARNING] execution.trade_executor: Trade blocked: Portfolio risk limit hit (5.0% / 5.0%)
+15:55:30 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.45x oi_Δ=+0.00% fund=0.005% bias=neutral
+15:55:30 [INFO] main: SIGNAL: [10:25:30] SHORT MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000587 | RSI=46.6 | v
+15:55:30 [WARNING] execution.trade_executor: Trade blocked: Portfolio risk limit hit (5.0% / 5.0%)
+15:55:46 [INFO] execution.trade_executor: ❌ [PAPER] STOP_LOSS: FIGHTUSDT LONG entry=0.0037 exit=0.0037 PnL=$-0.32 (-1.63%)
+16:10:55 [INFO] main: Scanning 12 pairs for signals...
+16:11:02 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.62x oi_Δ=+0.00% fund=0.005% bias=neutral
+16:11:02 [INFO] main: SIGNAL: [10:41:02] SHORT MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000587 | RSI=46.8 | v
+16:11:02 [WARNING] execution.trade_executor: Invalid signal for MEMEUSDT: R:R=1.01
+16:26:20 [CRITICAL] risk.risk_manager: TRADING HALTED: Daily loss limit hit: 6.4% (limit 5.0%)
+16:26:20 [INFO] execution.trade_executor: ❌ [PAPER] STOP_LOSS: 1000BONKUSDT SHORT entry=0.0064 exit=0.0065 PnL=$-0.34 (-1.94%)
+16:26:26 [INFO] main: Scanning 12 pairs for signals...
+16:26:28 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.35x oi_Δ=+0.00% fund=0.005% bias=neutral
+16:26:28 [INFO] main: SIGNAL: [10:56:28] LONG FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003628 | RSI=35.8 | vol
+16:26:28 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:26:29 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.68x oi_Δ=+0.00% fund=0.010% bias=neutral
+16:26:29 [INFO] main: SIGNAL: [10:56:29] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003250 | RSI=49.7 | vol
+16:26:29 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:26:32 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=1.21x oi_Δ=+0.00% fund=0.005% bias=neutral
+16:26:32 [INFO] main: SIGNAL: [10:56:32] SHORT JCTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.002486 | RSI=49.5 | v
+16:26:32 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:26:34 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.19x oi_Δ=+0.00%
+16:26:34 [INFO] main: SIGNAL: [10:56:34] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=53.9 | vol
+16:26:34 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:26:35 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=1.11x oi_Δ=+0.00% fund=0.005% bias=neutral
+16:26:35 [INFO] main: SIGNAL: [10:56:35] LONG MEMEUSDT | conf=0.82 | [CONFLUENCE x2] EMA9 crossed above EMA21 | RSI=56.7 | ADX=23
+16:26:35 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:26:37 [INFO] execution.trade_executor: ❌ [PAPER] STOP_LOSS: 1000PEPEUSDT SHORT entry=0.0039 exit=0.0040 PnL=$-0.24 (-1.30%)
+16:41:02 [INFO] main: Scanning 12 pairs for signals...
+16:41:05 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=1.39x oi_Δ=+0.00% fund=0.010% bias=neutral
+16:41:05 [INFO] main: SIGNAL: [11:11:05] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003250 | RSI=49.7 | vol
+16:41:05 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:41:10 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=0.48x oi_Δ=+0.00% fund=-0.004% bias=neutral
+16:41:10 [INFO] main: SIGNAL: [11:11:10] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=52.7 | vol
+16:41:10 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:41:12 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.77x oi_Δ=+0.00% fund=0.005% bias=neutral
+16:41:12 [INFO] main: SIGNAL: [11:11:12] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000592 | RSI=58.4 | v
+16:41:12 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:56:25 [INFO] execution.trade_executor: ❌ [PAPER] STOP_LOSS: GPSUSDT LONG entry=0.0094 exit=0.0091 PnL=$-0.66 (-2.85%)
+16:56:32 [INFO] main: Scanning 12 pairs for signals...
+16:56:34 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.35x oi_Δ=+0.00% fund=0.005% bias=neutral
+16:56:34 [INFO] main: SIGNAL: [11:26:34] LONG FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003665 | RSI=41.9 | vol
+16:56:34 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:56:35 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=1.06x oi_Δ=+0.00% fund=0.010% bias=neutral
+16:56:35 [INFO] main: SIGNAL: [11:26:35] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=53.0 | v
+16:56:35 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:56:39 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=2.40x oi_Δ=+0.00% fund=0.005% bias=neutral
+16:56:39 [INFO] main: SIGNAL: [11:26:39] SHORT JCTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.002504 | RSI=51.8 | v
+16:56:39 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+16:56:41 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.58x oi_Δ=+0.00% fund=0.005% bias=neutral
+16:56:41 [INFO] main: SIGNAL: [11:26:41] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000591 | RSI=56.1 | v
+16:56:41 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:12:07 [INFO] main: Scanning 12 pairs for signals...
+17:12:10 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.38x oi_Δ=+0.00% fund=0.005% bias=neutral
+17:12:10 [INFO] main: SIGNAL: [11:42:10] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003690 | RSI=47.0 | vol
+17:12:10 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:12:12 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.08x oi_Δ=+0.00%
+17:12:12 [INFO] main: SIGNAL: [11:42:12] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003250 | RSI=49.5 | vol
+17:12:12 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:12:15 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=0.71x oi_Δ=+0.00% fund=0.005% bias=neutral
+17:12:15 [INFO] main: SIGNAL: [11:42:15] SHORT JCTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.002496 | RSI=51.1 | v
+17:12:15 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:41:59 [INFO] main: Scanning 12 pairs for signals...
+17:42:02 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=0.87x oi_Δ=+0.00% fund=0.010% bias=neutral
+17:42:02 [INFO] main: SIGNAL: [12:12:02] SHORT 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003986 | RSI=61.2 | v
+17:42:02 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:42:03 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.79x oi_Δ=+0.00% fund=0.005% bias=neutral
+17:42:03 [INFO] main: SIGNAL: [12:12:03] SHORT FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003758 | RSI=47.9 | v
+17:42:03 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:42:05 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.64x oi_Δ=+0.00% fund=0.010% bias=neutral
+17:42:05 [INFO] main: SIGNAL: [12:12:05] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=53.1 | v
+17:42:05 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:42:09 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=1.36x oi_Δ=+0.00% fund=0.005% bias=neutral
+17:42:09 [INFO] main: SIGNAL: [12:12:09] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002496 | RSI=50.3 | v
+17:42:09 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:42:11 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=2.05x oi_Δ=+0.00% fund=-0.021% bias=neutral
+17:42:11 [INFO] main: SIGNAL: [12:12:11] SHORT BOMEUSDT | conf=0.70 | [CONFLUENCE x1] Reject at resistance 0.000582 | RSI=59.4 | v
+17:42:11 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:57:35 [INFO] main: Scanning 12 pairs for signals...
+17:57:36 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=1.16x oi_Δ=+0.00% fund=0.010% bias=neutral
+17:57:36 [INFO] main: SIGNAL: [12:27:36] SHORT 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003947 | RSI=52.4 | v
+17:57:36 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:57:38 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.77x oi_Δ=+0.00% fund=0.005% bias=neutral
+17:57:38 [INFO] main: SIGNAL: [12:27:38] SHORT FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003758 | RSI=47.6 | v
+17:57:38 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:57:39 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.65x oi_Δ=+0.00% fund=0.010% bias=neutral
+17:57:39 [INFO] main: SIGNAL: [12:27:39] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=52.9 | v
+17:57:39 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:57:42 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=0.61x oi_Δ=+0.00% fund=0.005% bias=neutral
+17:57:42 [INFO] main: SIGNAL: [12:27:42] SHORT JCTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.002486 | RSI=47.7 | v
+17:57:42 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+17:57:46 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=1.06x oi_Δ=+0.00% fund=0.005% bias=neutral
+17:57:46 [INFO] main: SIGNAL: [12:27:46] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000592 | RSI=54.8 | v
+17:57:46 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:12:56 [INFO] main: Scanning 12 pairs for signals...
+18:12:58 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=0.66x oi_Δ=+0.00% fund=0.010% bias=neutral
+18:12:58 [INFO] main: SIGNAL: [12:42:58] LONG 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003879 | RSI=50.6 | vol
+18:12:58 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:12:59 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.59x oi_Δ=+0.00% fund=0.005% bias=neutral
+18:12:59 [INFO] main: SIGNAL: [12:42:59] SHORT FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003758 | RSI=47.6 | v
+18:12:59 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:13:00 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.46x oi_Δ=+0.00% fund=0.010% bias=neutral
+18:13:00 [INFO] main: SIGNAL: [12:43:00] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003300 | RSI=49.3 | v
+18:13:00 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:13:04 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.15x oi_Δ=+0.00%
+18:13:04 [INFO] main: SIGNAL: [12:43:04] LONG JCTUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.002468 | RSI=50.2 | vol
+18:13:04 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:28:25 [INFO] execution.trade_executor: ✅ [PAPER] TAKE_PROFIT: BLESSUSDT SHORT entry=0.0061 exit=0.0059 PnL=$0.63 (+3.40%)
+18:28:32 [INFO] main: Scanning 12 pairs for signals...
+18:28:33 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=0.51x oi_Δ=+0.00% fund=0.010% bias=neutral
+18:28:33 [INFO] main: SIGNAL: [12:58:33] SHORT 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003947 | RSI=52.7 | v
+18:28:33 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:28:35 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.33x oi_Δ=+0.00% fund=0.005% bias=neutral
+18:28:35 [INFO] main: SIGNAL: [12:58:35] SHORT FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003758 | RSI=49.1 | v
+18:28:35 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:28:36 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.91x oi_Δ=+0.00% fund=0.010% bias=neutral
+18:28:36 [INFO] main: SIGNAL: [12:58:36] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003300 | RSI=49.1 | v
+18:28:36 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:28:42 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=0.78x oi_Δ=+0.00% fund=-0.029% bias=neutral
+18:28:42 [INFO] main: SIGNAL: [12:58:42] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000567 | RSI=50.8 | vol
+18:28:42 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:28:43 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=1.05x oi_Δ=+0.00% fund=0.005% bias=neutral
+18:28:43 [INFO] main: SIGNAL: [12:58:43] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000583 | RSI=49.3 | vol
+18:28:43 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:43:18 [INFO] main: Scanning 12 pairs for signals...
+18:43:19 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=0.93x oi_Δ=+0.00% fund=0.010% bias=neutral
+18:43:19 [INFO] main: SIGNAL: [13:13:19] SHORT 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003947 | RSI=53.5 | v
+18:43:20 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:58:31 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.88x oi_Δ=+0.00% fund=0.005% bias=neutral
+18:58:31 [INFO] main: SIGNAL: [13:28:31] LONG FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003689 | RSI=45.9 | vol
+18:58:31 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:58:32 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.33x oi_Δ=+0.00% fund=0.010% bias=neutral
+18:58:32 [INFO] main: SIGNAL: [13:28:32] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003300 | RSI=45.1 | v
+18:58:32 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:58:38 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.26x oi_Δ=+0.00%
+18:58:38 [INFO] main: SIGNAL: [13:28:38] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000567 | RSI=50.0 | vol
+18:58:38 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+18:58:39 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=1.01x oi_Δ=+0.00% fund=0.005% bias=neutral
+18:58:39 [INFO] main: SIGNAL: [13:28:39] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000581 | RSI=46.1 | vol
+18:58:39 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:13:59 [INFO] main: Scanning 12 pairs for signals...
+19:14:00 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=1.05x oi_Δ=+0.00% fund=0.010% bias=neutral
+19:14:00 [INFO] main: SIGNAL: [13:44:00] LONG 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003892 | RSI=53.8 | vol
+19:14:00 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:14:02 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=1.45x oi_Δ=+0.00% fund=0.010% bias=neutral
+19:14:02 [INFO] main: SIGNAL: [13:44:02] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003260 | RSI=49.1 | vol
+19:14:02 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:14:05 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.61x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:14:05 [INFO] main: SIGNAL: [13:44:05] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006420 | RSI=52.1 | vol
+19:14:05 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:14:07 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=0.64x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:14:07 [INFO] main: SIGNAL: [13:44:07] LONG JCTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.002407 | RSI=41.3 | vol
+19:14:07 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:14:10 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.70x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:14:10 [INFO] main: SIGNAL: [13:44:10] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000580 | RSI=44.4 | vol
+19:14:10 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:29:25 [INFO] main: Scanning 12 pairs for signals...
+19:29:26 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=0.80x oi_Δ=+0.00% fund=0.010% bias=neutral
+19:29:26 [INFO] main: SIGNAL: [13:59:26] LONG 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003892 | RSI=52.7 | vol
+19:29:26 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:29:28 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.63x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:29:28 [INFO] main: SIGNAL: [13:59:28] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003674 | RSI=46.5 | vol
+19:29:28 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:29:31 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.69x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:29:31 [INFO] main: SIGNAL: [13:59:31] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006385 | RSI=48.4 | vol
+19:29:31 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:29:33 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=0.39x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:29:33 [INFO] main: SIGNAL: [13:59:33] LONG JCTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.002427 | RSI=46.5 | vol
+19:29:33 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:29:35 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=0.69x oi_Δ=+0.00% fund=-0.029% bias=neutral
+19:29:35 [INFO] main: SIGNAL: [13:59:35] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000561 | RSI=44.1 | vol
+19:29:35 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:29:36 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.28x oi_Δ=+0.00%
+19:29:36 [INFO] main: SIGNAL: [13:59:36] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000581 | RSI=46.5 | vol
+19:29:36 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:44:05 [INFO] main: Scanning 12 pairs for signals...
+19:44:07 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=0.60x oi_Δ=+0.00% fund=0.010% bias=neutral
+19:44:07 [INFO] main: SIGNAL: [14:14:07] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003908 | RSI=54.5 | vol
+19:44:07 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:44:08 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.67x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:44:08 [INFO] main: SIGNAL: [14:14:08] LONG FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003674 | RSI=45.2 | vol
+19:44:08 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:44:09 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.36x oi_Δ=+0.00% fund=0.010% bias=neutral
+19:44:09 [INFO] main: SIGNAL: [14:14:09] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003260 | RSI=50.2 | vol
+19:44:09 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:44:11 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.61x oi_Δ=+0.00% fund=0.003% bias=neutral
+19:44:11 [INFO] main: SIGNAL: [14:14:11] SHORT 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.006496 | RSI=50.1 | v
+19:44:11 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:44:13 [INFO] strategies.confluence_engine: [BLESSUSDT] hype OK — vol=0.73x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:44:13 [INFO] main: SIGNAL: [14:14:13] LONG BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.005731 | RSI=31.1 | vol
+19:44:13 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:44:16 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=0.44x oi_Δ=+0.00% fund=-0.028% bias=neutral
+19:44:16 [INFO] main: SIGNAL: [14:14:16] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000561 | RSI=46.5 | vol
+19:44:16 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:44:17 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.71x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:44:17 [INFO] main: SIGNAL: [14:14:17] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000582 | RSI=48.7 | vol
+19:44:17 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:59:26 [INFO] main: Scanning 12 pairs for signals...
+19:59:28 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=0.97x oi_Δ=+0.00% fund=0.010% bias=neutral
+19:59:28 [INFO] main: SIGNAL: [14:29:28] SHORT 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.003962 | RSI=56.9 | v
+19:59:28 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:59:29 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.97x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:59:29 [INFO] main: SIGNAL: [14:29:29] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003659 | RSI=43.7 | vol
+19:59:29 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:59:30 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=1.20x oi_Δ=+0.00% fund=0.010% bias=neutral
+19:59:30 [INFO] main: SIGNAL: [14:29:30] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003260 | RSI=54.0 | vol
+19:59:30 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:59:32 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.15x oi_Δ=+0.00%
+19:59:32 [INFO] main: SIGNAL: [14:29:32] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008509 | RSI=46.5 | vol
+19:59:32 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:59:33 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=1.44x oi_Δ=+0.00% fund=0.002% bias=neutral
+19:59:33 [INFO] main: SIGNAL: [14:29:33] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006420 | RSI=54.7 | vol
+19:59:33 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:59:37 [INFO] strategies.confluence_engine: [PENGUUSDT] hype OK — vol=0.58x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:59:37 [INFO] main: SIGNAL: [14:29:37] SHORT PENGUUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.008773 | RSI=61.2 | v
+19:59:37 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:59:38 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.28x oi_Δ=+0.00%
+19:59:38 [INFO] main: SIGNAL: [14:29:38] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=49.9 | vol
+19:59:38 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+19:59:39 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.71x oi_Δ=+0.00% fund=0.005% bias=neutral
+19:59:39 [INFO] main: SIGNAL: [14:29:39] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000583 | RSI=50.8 | vol
+19:59:39 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:15:03 [INFO] main: Scanning 12 pairs for signals...
+20:15:05 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+20:15:05 [INFO] main: SIGNAL: [14:45:05] LONG 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003879 | RSI=47.0 | vol
+20:15:05 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:15:07 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+20:15:07 [INFO] main: SIGNAL: [14:45:07] LONG FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003674 | RSI=45.9 | vol
+20:15:07 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:15:08 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+20:15:08 [INFO] main: SIGNAL: [14:45:08] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003320 | RSI=57.6 | v
+20:15:08 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:15:10 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+20:15:10 [INFO] main: SIGNAL: [14:45:10] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008653 | RSI=53.1 | vol
+20:15:10 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:15:12 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+20:15:12 [INFO] main: SIGNAL: [14:45:12] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006385 | RSI=47.3 | vol
+20:15:12 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:30:18 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+20:30:18 [INFO] main: SIGNAL: [15:00:18] LONG JCTUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.002468 | RSI=51.8 | vol
+20:30:18 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:30:22 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+20:30:22 [INFO] main: SIGNAL: [15:00:22] LONG BOMEUSDT | conf=0.82 | [CONFLUENCE x2] EMA9 crossed above EMA21 | RSI=56.1 | ADX=29
+20:30:22 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:30:23 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+20:30:23 [INFO] main: SIGNAL: [15:00:23] SHORT MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000594 | RSI=59.1 | v
+20:30:23 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:45:03 [INFO] main: Scanning 12 pairs for signals...
+20:45:04 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=1.00x oi_Δ=+0.00% fund=0.010% bias=neutral
+20:45:04 [INFO] main: SIGNAL: [15:15:04] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003892 | RSI=49.4 | vol
+20:45:04 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:45:06 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.66x oi_Δ=+0.00% fund=0.005% bias=neutral
+20:45:06 [INFO] main: SIGNAL: [15:15:06] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003674 | RSI=47.2 | vol
+20:45:06 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:45:07 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+20:45:07 [INFO] main: SIGNAL: [15:15:07] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003260 | RSI=52.9 | vol
+20:45:07 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:45:08 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+20:45:08 [INFO] main: SIGNAL: [15:15:08] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008550 | RSI=48.7 | vol
+20:45:08 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:45:10 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+20:45:10 [INFO] main: SIGNAL: [15:15:10] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006423 | RSI=50.8 | vol
+20:45:10 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:45:13 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+20:45:13 [INFO] main: SIGNAL: [15:15:13] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008569 | RSI=54.7 | vol
+20:45:13 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+20:45:15 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+20:45:15 [INFO] main: SIGNAL: [15:15:15] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000583 | RSI=50.3 | vol
+20:45:15 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:00:23 [INFO] main: Scanning 12 pairs for signals...
+21:00:26 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+21:00:26 [INFO] main: SIGNAL: [15:30:26] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003892 | RSI=49.6 | vol
+21:00:26 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:00:27 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+21:00:27 [INFO] main: SIGNAL: [15:30:27] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003689 | RSI=49.5 | vol
+21:00:27 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:00:29 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+21:00:29 [INFO] main: SIGNAL: [15:30:29] LONG XANUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008550 | RSI=47.1 | vol
+21:00:29 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:00:30 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.05x oi_Δ=+0.00%
+21:00:30 [INFO] main: SIGNAL: [15:30:30] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006423 | RSI=51.2 | vol
+21:00:30 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:00:34 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.04x oi_Δ=+0.00%
+21:00:34 [INFO] main: SIGNAL: [15:30:34] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008524 | RSI=52.0 | vol
+21:00:34 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:00:35 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.14x oi_Δ=+0.00%
+21:00:35 [INFO] main: SIGNAL: [15:30:35] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000567 | RSI=51.5 | vol
+21:00:35 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:00:36 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.04x oi_Δ=+0.00%
+21:00:36 [INFO] main: SIGNAL: [15:30:36] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000582 | RSI=48.1 | vol
+21:00:36 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:15:55 [INFO] main: Scanning 12 pairs for signals...
+21:15:56 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+21:15:56 [INFO] main: SIGNAL: [15:45:56] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003908 | RSI=54.0 | vol
+21:15:56 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:15:58 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+21:15:58 [INFO] main: SIGNAL: [15:45:58] LONG FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003659 | RSI=43.9 | vol
+21:15:58 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:16:00 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+21:16:00 [INFO] main: SIGNAL: [15:46:00] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008509 | RSI=46.9 | vol
+21:16:00 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:16:02 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.32x oi_Δ=+0.00% fund=-0.001% bias=neutral
+21:16:02 [INFO] main: SIGNAL: [15:46:02] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006429 | RSI=53.0 | vol
+21:16:02 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:16:06 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.02x oi_Δ=+0.00%
+21:16:06 [INFO] main: SIGNAL: [15:46:06] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008524 | RSI=51.3 | vol
+21:16:06 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:16:06 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+21:16:06 [INFO] main: SIGNAL: [15:46:06] SHORT BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000576 | RSI=53.5 | v
+21:16:06 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:16:07 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.07x oi_Δ=+0.00%
+21:16:07 [INFO] main: SIGNAL: [15:46:07] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000592 | RSI=56.4 | v
+21:16:07 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:23:37 [INFO] main: Scanning 12 pairs for signals...
+21:23:42 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.34x oi_Δ=+0.00% fund=0.005% bias=neutral
+21:23:42 [INFO] main: SIGNAL: [15:53:42] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003641 | RSI=42.6 | vol
+21:23:42 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:23:45 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.65x oi_Δ=+0.00% fund=-0.000% bias=neutral
+21:23:45 [INFO] main: SIGNAL: [15:53:45] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006429 | RSI=54.1 | vol
+21:23:45 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:23:48 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+21:23:48 [INFO] main: SIGNAL: [15:53:48] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008524 | RSI=50.4 | vol
+21:23:48 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:23:49 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.25x oi_Δ=+0.00%
+21:23:49 [INFO] main: SIGNAL: [15:53:49] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000567 | RSI=51.1 | vol
+21:23:49 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:23:50 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.21x oi_Δ=+0.00%
+21:23:50 [INFO] main: SIGNAL: [15:53:50] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000584 | RSI=54.0 | vol
+21:23:50 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:39:08 [INFO] main: Scanning 12 pairs for signals...
+21:39:11 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.35x oi_Δ=+0.00% fund=0.005% bias=neutral
+21:39:11 [INFO] main: SIGNAL: [16:09:11] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003641 | RSI=43.1 | vol
+21:39:11 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:39:13 [INFO] strategies.confluence_engine: [XANUSDT] hype OK — vol=0.48x oi_Δ=+0.00% fund=0.005% bias=neutral
+21:39:13 [INFO] main: SIGNAL: [16:09:13] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008509 | RSI=47.4 | vol
+21:39:13 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:39:14 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.64x oi_Δ=+0.00% fund=-0.001% bias=neutral
+21:39:14 [INFO] main: SIGNAL: [16:09:14] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006429 | RSI=52.7 | vol
+21:39:14 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:39:16 [INFO] strategies.confluence_engine: [BLESSUSDT] hype OK — vol=0.99x oi_Δ=+0.00% fund=0.005% bias=neutral
+21:39:16 [INFO] main: SIGNAL: [16:09:16] LONG BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.005731 | RSI=35.5 | vol
+21:39:16 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:46:01 [INFO] main: Scanning 12 pairs for signals...
+21:46:02 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+21:46:02 [INFO] main: SIGNAL: [16:16:02] LONG 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003897 | RSI=52.8 | vol
+21:46:02 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:46:04 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.05x oi_Δ=+0.00%
+21:46:04 [INFO] main: SIGNAL: [16:16:04] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003641 | RSI=43.3 | vol
+21:46:04 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:46:05 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+21:46:05 [INFO] main: SIGNAL: [16:16:05] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003330 | RSI=58.4 | v
+21:46:05 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:46:06 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.02x oi_Δ=+0.00%
+21:46:06 [INFO] main: SIGNAL: [16:16:06] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008509 | RSI=48.0 | vol
+21:46:06 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:46:08 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.06x oi_Δ=+0.00%
+21:46:08 [INFO] main: SIGNAL: [16:16:08] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006429 | RSI=51.8 | vol
+21:46:08 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:46:12 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.04x oi_Δ=+0.00%
+21:46:12 [INFO] main: SIGNAL: [16:16:12] SHORT BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000577 | RSI=53.9 | v
+21:46:12 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+21:46:13 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.07x oi_Δ=+0.00%
+21:46:13 [INFO] main: SIGNAL: [16:16:13] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000584 | RSI=54.9 | vol
+21:46:13 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:01:43 [INFO] main: Scanning 12 pairs for signals...
+22:01:46 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.12x oi_Δ=+0.00%
+22:01:46 [INFO] main: SIGNAL: [16:31:46] LONG 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003879 | RSI=46.3 | vol
+22:01:46 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:01:48 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.02x oi_Δ=+0.00%
+22:01:48 [INFO] main: SIGNAL: [16:31:48] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003330 | RSI=58.4 | v
+22:01:48 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:01:50 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.02x oi_Δ=+0.00%
+22:01:50 [INFO] main: SIGNAL: [16:31:50] LONG XANUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008550 | RSI=48.6 | vol
+22:01:50 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:16:53 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+22:16:53 [INFO] main: SIGNAL: [16:46:53] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006385 | RSI=47.4 | vol
+22:16:53 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:16:55 [INFO] strategies.confluence_engine: [BLESSUSDT] hype BLOCK — ghost town: vol=0.02x oi_Δ=+0.00%
+22:16:55 [INFO] main: SIGNAL: [16:46:55] LONG BLESSUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.005763 | RSI=38.0 | vol
+22:16:55 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:16:57 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+22:16:57 [INFO] main: SIGNAL: [16:46:57] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002529 | RSI=52.7 | v
+22:16:57 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:16:59 [INFO] strategies.confluence_engine: [PENGUUSDT] hype OK — vol=0.30x oi_Δ=+0.00% fund=0.005% bias=neutral
+22:16:59 [INFO] main: SIGNAL: [16:46:59] LONG PENGUUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008432 | RSI=44.6 | vol
+22:16:59 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:17:01 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.04x oi_Δ=+0.00%
+22:17:01 [INFO] main: SIGNAL: [16:47:01] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000562 | RSI=46.1 | vol
+22:17:01 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:17:02 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.07x oi_Δ=+0.00%
+22:17:02 [INFO] main: SIGNAL: [16:47:02] SHORT MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000591 | RSI=49.2 | v
+22:17:02 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:32:25 [INFO] main: Scanning 12 pairs for signals...
+22:32:26 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype OK — vol=0.37x oi_Δ=+0.00% fund=0.010% bias=neutral
+22:32:26 [INFO] main: SIGNAL: [17:02:26] LONG 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003879 | RSI=48.7 | vol
+22:32:26 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:32:28 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.15x oi_Δ=+0.00%
+22:32:28 [INFO] main: SIGNAL: [17:02:28] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003561 | RSI=34.2 | vol
+22:32:28 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:32:31 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.31x oi_Δ=+0.00% fund=0.000% bias=neutral
+22:32:31 [INFO] main: SIGNAL: [17:02:31] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006420 | RSI=50.4 | vol
+22:32:31 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:32:35 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.18x oi_Δ=+0.00%
+22:32:35 [INFO] main: SIGNAL: [17:02:35] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000567 | RSI=51.4 | vol
+22:32:35 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:32:36 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+22:32:36 [INFO] main: SIGNAL: [17:02:36] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000585 | RSI=52.7 | vol
+22:32:36 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:46:59 [INFO] main: Scanning 12 pairs for signals...
+22:47:02 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+22:47:02 [INFO] main: SIGNAL: [17:17:02] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003879 | RSI=45.3 | vol
+22:47:02 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:47:03 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.82x oi_Δ=+0.00% fund=0.005% bias=neutral
+22:47:03 [INFO] main: SIGNAL: [17:17:03] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003641 | RSI=47.3 | vol
+22:47:03 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:47:06 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.10x oi_Δ=+0.00%
+22:47:06 [INFO] main: SIGNAL: [17:17:06] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006402 | RSI=49.3 | vol
+22:47:06 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:47:08 [INFO] strategies.confluence_engine: [BLESSUSDT] hype BLOCK — ghost town: vol=0.05x oi_Δ=+0.00%
+22:47:08 [INFO] main: SIGNAL: [17:17:08] LONG BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.005731 | RSI=36.8 | vol
+22:47:08 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:47:09 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+22:47:09 [INFO] main: SIGNAL: [17:17:09] LONG JCTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.002485 | RSI=52.3 | vol
+22:47:09 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:47:11 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+22:47:11 [INFO] main: SIGNAL: [17:17:11] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=48.3 | vol
+22:47:11 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+22:47:12 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+22:47:12 [INFO] main: SIGNAL: [17:17:12] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000583 | RSI=49.1 | vol
+22:47:12 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:02:28 [INFO] main: Scanning 12 pairs for signals...
+23:02:29 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.04x oi_Δ=+0.00%
+23:02:29 [INFO] main: SIGNAL: [17:32:29] LONG 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003866 | RSI=43.4 | vol
+23:02:29 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:02:31 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.11x oi_Δ=+0.00%
+23:02:31 [INFO] main: SIGNAL: [17:32:31] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003641 | RSI=48.7 | vol
+23:02:31 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:02:32 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.22x oi_Δ=+0.00%
+23:02:32 [INFO] main: SIGNAL: [17:32:32] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003280 | RSI=51.1 | vol
+23:02:32 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:02:34 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.06x oi_Δ=+0.00%
+23:02:34 [INFO] main: SIGNAL: [17:32:34] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006402 | RSI=47.9 | vol
+23:02:34 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:02:36 [INFO] strategies.confluence_engine: [BLESSUSDT] hype BLOCK — ghost town: vol=0.12x oi_Δ=+0.00%
+23:02:36 [INFO] main: SIGNAL: [17:32:36] LONG BLESSUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.005768 | RSI=39.1 | vol
+23:02:36 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:02:39 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+23:02:39 [INFO] main: SIGNAL: [17:32:39] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=49.5 | vol
+23:02:39 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:17:55 [INFO] main: Scanning 12 pairs for signals...
+23:17:57 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.11x oi_Δ=+0.00%
+23:17:57 [INFO] main: SIGNAL: [17:47:57] LONG 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003879 | RSI=49.4 | vol
+23:17:57 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:17:58 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+23:17:58 [INFO] main: SIGNAL: [17:47:58] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003641 | RSI=48.5 | vol
+23:17:58 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:17:59 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+23:17:59 [INFO] main: SIGNAL: [17:47:59] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003330 | RSI=55.6 | v
+23:17:59 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:18:02 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.23x oi_Δ=+0.00%
+23:18:02 [INFO] main: SIGNAL: [17:48:02] LONG 1000BONKUSDT | conf=0.82 | [CONFLUENCE x2] EMA9 crossed above EMA21 | RSI=55.9 | ADX=21
+23:18:02 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:18:03 [INFO] strategies.confluence_engine: [BLESSUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+23:18:03 [INFO] main: SIGNAL: [17:48:03] LONG BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.005731 | RSI=36.8 | vol
+23:18:03 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:18:05 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.06x oi_Δ=+0.00%
+23:18:05 [INFO] main: SIGNAL: [17:48:05] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002567 | RSI=58.4 | v
+23:18:05 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:18:06 [INFO] strategies.confluence_engine: [TRUUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+23:18:06 [INFO] main: SIGNAL: [17:48:06] SHORT TRUUSDT | conf=0.82 | [CONFLUENCE x2] EMA9 crossed below EMA21 | RSI=44.2 | ADX=26
+23:18:06 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:18:07 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.12x oi_Δ=+0.00%
+23:18:07 [INFO] main: SIGNAL: [17:48:07] SHORT BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000576 | RSI=53.9 | v
+23:18:07 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:18:08 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.04x oi_Δ=+0.00%
+23:18:08 [INFO] main: SIGNAL: [17:48:08] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000584 | RSI=51.3 | vol
+23:18:08 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:33:16 [INFO] main: Scanning 12 pairs for signals...
+23:33:19 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+23:33:19 [INFO] main: SIGNAL: [18:03:19] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003892 | RSI=50.4 | vol
+23:33:19 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:33:22 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.12x oi_Δ=+0.00%
+23:33:22 [INFO] main: SIGNAL: [18:03:22] LONG FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003659 | RSI=50.1 | vol
+23:33:22 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:33:28 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+23:33:28 [INFO] main: SIGNAL: [18:03:28] LONG PENGUUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008524 | RSI=53.0 | vol
+23:33:28 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:48:05 [INFO] main: Scanning 12 pairs for signals...
+23:48:06 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.05x oi_Δ=+0.00%
+23:48:06 [INFO] main: SIGNAL: [18:18:06] LONG 1000PEPEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003897 | RSI=52.7 | vol
+23:48:06 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:48:08 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.04x oi_Δ=+0.00%
+23:48:08 [INFO] main: SIGNAL: [18:18:08] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003620 | RSI=44.6 | vol
+23:48:08 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:48:12 [INFO] strategies.confluence_engine: [BLESSUSDT] hype BLOCK — ghost town: vol=0.07x oi_Δ=+0.00%
+23:48:12 [INFO] main: SIGNAL: [18:18:12] SHORT BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.005906 | RSI=49.1 | v
+23:48:12 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:48:14 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.23x oi_Δ=+0.00%
+23:48:14 [INFO] main: SIGNAL: [18:18:14] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002567 | RSI=56.4 | v
+23:48:14 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+23:48:16 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+23:48:16 [INFO] main: SIGNAL: [18:18:16] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000594 | RSI=59.0 | v
+23:48:16 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:03:25 [INFO] main: Scanning 12 pairs for signals...
+00:03:27 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.07x oi_Δ=+0.00%
+00:03:27 [INFO] main: SIGNAL: [18:33:27] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003892 | RSI=51.0 | vol
+00:03:27 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:03:28 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.06x oi_Δ=+0.00%
+00:03:28 [INFO] main: SIGNAL: [18:33:28] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003620 | RSI=46.4 | vol
+00:03:28 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:03:29 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.08x oi_Δ=+0.00%
+00:03:29 [INFO] main: SIGNAL: [18:33:29] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003340 | RSI=57.2 | v
+00:03:29 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:03:34 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+00:03:34 [INFO] main: SIGNAL: [18:33:34] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002567 | RSI=56.2 | v
+00:03:34 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:03:36 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.05x oi_Δ=+0.00%
+00:03:36 [INFO] main: SIGNAL: [18:33:36] SHORT BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000582 | RSI=58.7 | v
+00:03:36 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:03:37 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.43x oi_Δ=+0.00% fund=0.005% bias=neutral
+00:03:37 [INFO] main: SIGNAL: [18:33:37] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000585 | RSI=54.2 | vol
+00:03:37 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:03:38 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+00:03:38 [INFO] main: SIGNAL: [18:33:38] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009160 | RSI=55.8 | v
+00:03:38 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:18:56 [INFO] main: Scanning 12 pairs for signals...
+00:18:58 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.08x oi_Δ=+0.00%
+00:18:58 [INFO] main: SIGNAL: [18:48:58] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003892 | RSI=50.8 | vol
+00:18:58 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:18:59 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+00:18:59 [INFO] main: SIGNAL: [18:48:59] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003641 | RSI=48.9 | vol
+00:18:59 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:19:00 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.15x oi_Δ=+0.00%
+00:19:00 [INFO] main: SIGNAL: [18:49:00] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003290 | RSI=52.6 | vol
+00:19:00 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:19:06 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.07x oi_Δ=+0.00%
+00:19:06 [INFO] main: SIGNAL: [18:49:06] LONG PENGUUSDT | conf=0.75 | [CONFLUENCE x2] EMA9 crossed above EMA21 | RSI=57.1 | ADX=18
+00:19:06 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:19:07 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.15x oi_Δ=+0.00%
+00:19:07 [INFO] main: SIGNAL: [18:49:07] SHORT BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000582 | RSI=57.4 | v
+00:19:07 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:19:08 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.17x oi_Δ=+0.00%
+00:19:08 [INFO] main: SIGNAL: [18:49:08] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000585 | RSI=51.9 | vol
+00:19:08 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:34:38 [INFO] main: Scanning 12 pairs for signals...
+00:34:42 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+00:34:42 [INFO] main: SIGNAL: [19:04:42] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003641 | RSI=48.2 | vol
+00:34:42 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:34:43 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.29x oi_Δ=+0.00%
+00:34:43 [INFO] main: SIGNAL: [19:04:43] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003280 | RSI=48.4 | vol
+00:34:43 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:34:45 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.56x oi_Δ=+0.00% fund=0.005% bias=neutral
+00:34:45 [INFO] main: SIGNAL: [19:04:45] SHORT 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.006574 | RSI=58.6 | v
+00:34:45 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:49:09 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=0.52x oi_Δ=+0.00% fund=0.005% bias=neutral
+00:49:09 [INFO] main: SIGNAL: [19:19:09] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002585 | RSI=59.5 | v
+00:49:09 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:49:11 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.27x oi_Δ=+0.00%
+00:49:11 [INFO] main: SIGNAL: [19:19:11] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000567 | RSI=48.0 | vol
+00:49:11 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+00:49:12 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.98x oi_Δ=+0.00% fund=-0.002% bias=neutral
+00:49:12 [INFO] main: SIGNAL: [19:19:12] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000582 | RSI=46.7 | vol
+00:49:12 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:04:27 [INFO] main: Scanning 12 pairs for signals...
+01:04:30 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.08x oi_Δ=+0.00%
+01:04:30 [INFO] main: SIGNAL: [19:34:30] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003641 | RSI=49.8 | vol
+01:04:30 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:04:31 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=1.18x oi_Δ=+0.00% fund=0.010% bias=neutral
+01:04:31 [INFO] main: SIGNAL: [19:34:31] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003250 | RSI=37.6 | vol
+01:04:31 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:04:33 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.42x oi_Δ=+0.00% fund=0.005% bias=neutral
+01:04:33 [INFO] main: SIGNAL: [19:34:33] SHORT 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.006489 | RSI=45.5 | v
+01:04:33 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:04:35 [INFO] strategies.confluence_engine: [BLESSUSDT] hype BLOCK — ghost town: vol=0.29x oi_Δ=+0.00%
+01:04:35 [INFO] main: SIGNAL: [19:34:35] SHORT BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.006000 | RSI=57.9 | v
+01:04:35 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:04:36 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.24x oi_Δ=+0.00%
+01:04:36 [INFO] main: SIGNAL: [19:34:36] SHORT JCTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.002573 | RSI=58.3 | v
+01:04:36 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:04:38 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=2.00x oi_Δ=+0.00% fund=-0.014% bias=neutral
+01:04:38 [INFO] main: SIGNAL: [19:34:38] LONG BOMEUSDT | conf=0.70 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=44.7 | vol
+01:04:38 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:19:47 [INFO] main: Scanning 12 pairs for signals...
+01:19:50 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.17x oi_Δ=+0.00%
+01:19:50 [INFO] main: SIGNAL: [19:49:50] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003620 | RSI=46.3 | vol
+01:19:50 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:19:51 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.55x oi_Δ=+0.00% fund=0.010% bias=neutral
+01:19:51 [INFO] main: SIGNAL: [19:49:51] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003250 | RSI=41.1 | vol
+01:19:51 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:19:53 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.38x oi_Δ=+0.00% fund=0.005% bias=neutral
+01:19:53 [INFO] main: SIGNAL: [19:49:53] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006402 | RSI=45.7 | vol
+01:19:53 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:19:56 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+01:19:56 [INFO] main: SIGNAL: [19:49:56] SHORT JCTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.002585 | RSI=60.3 | v
+01:19:56 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:19:58 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=0.36x oi_Δ=+0.00% fund=-0.017% bias=neutral
+01:19:58 [INFO] main: SIGNAL: [19:49:58] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000562 | RSI=43.1 | vol
+01:19:58 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:20:00 [INFO] strategies.confluence_engine: [GPSUSDT] hype OK — vol=0.51x oi_Δ=+0.00% fund=0.005% bias=neutral
+01:20:00 [INFO] main: SIGNAL: [19:50:00] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009380 | RSI=66.7 | v
+01:20:00 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:35:17 [INFO] main: Scanning 12 pairs for signals...
+01:35:19 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.26x oi_Δ=+0.00%
+01:35:19 [INFO] main: SIGNAL: [20:05:19] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003840 | RSI=37.7 | vol
+01:35:19 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:35:20 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+01:35:20 [INFO] main: SIGNAL: [20:05:20] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003659 | RSI=52.0 | vol
+01:35:20 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:35:21 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.12x oi_Δ=+0.00%
+01:35:21 [INFO] main: SIGNAL: [20:05:21] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003240 | RSI=39.5 | vol
+01:35:21 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:35:23 [INFO] strategies.confluence_engine: [XANUSDT] hype OK — vol=0.35x oi_Δ=+0.00% fund=0.005% bias=neutral
+01:35:23 [INFO] main: SIGNAL: [20:05:23] SHORT XANUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.008730 | RSI=46.4 | v
+01:35:23 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:35:24 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.30x oi_Δ=+0.00%
+01:35:24 [INFO] main: SIGNAL: [20:05:24] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006429 | RSI=47.5 | vol
+01:35:24 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:35:26 [INFO] strategies.confluence_engine: [BLESSUSDT] hype OK — vol=0.94x oi_Δ=+0.00% fund=0.005% bias=neutral
+01:35:26 [INFO] main: SIGNAL: [20:05:26] SHORT BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.006040 | RSI=60.7 | v
+01:35:26 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:35:27 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=1.17x oi_Δ=+0.00% fund=0.005% bias=neutral
+01:35:27 [INFO] main: SIGNAL: [20:05:27] SHORT JCTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.002592 | RSI=61.2 | v
+01:35:27 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:35:28 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.14x oi_Δ=+0.00%
+01:35:28 [INFO] main: SIGNAL: [20:05:28] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008305 | RSI=38.7 | vol
+01:35:28 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:35:29 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+01:35:29 [INFO] main: SIGNAL: [20:05:29] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000558 | RSI=40.8 | vol
+01:35:29 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:35:32 [INFO] strategies.confluence_engine: [GPSUSDT] hype OK — vol=0.83x oi_Δ=+0.00% fund=0.005% bias=neutral
+01:35:32 [INFO] main: SIGNAL: [20:05:32] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009380 | RSI=63.4 | v
+01:35:32 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:50:02 [INFO] main: Scanning 12 pairs for signals...
+01:50:05 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+01:50:05 [INFO] main: SIGNAL: [20:20:05] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003659 | RSI=52.6 | vol
+01:50:05 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:50:06 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.54x oi_Δ=+0.00% fund=0.010% bias=neutral
+01:50:06 [INFO] main: SIGNAL: [20:20:06] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003230 | RSI=37.1 | vol
+01:50:06 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:50:07 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.05x oi_Δ=+0.00%
+01:50:07 [INFO] main: SIGNAL: [20:20:07] LONG XANUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008696 | RSI=50.0 | vol
+01:50:07 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:50:09 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.60x oi_Δ=+0.00% fund=0.005% bias=neutral
+01:50:09 [INFO] main: SIGNAL: [20:20:09] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006385 | RSI=42.0 | vol
+01:50:09 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+01:50:10 [INFO] strategies.confluence_engine: [BLESSUSDT] hype OK — vol=0.31x oi_Δ=+0.00% fund=0.005% bias=neutral
+01:50:10 [INFO] main: SIGNAL: [20:20:10] SHORT BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.006082 | RSI=65.2 | v
+01:50:10 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:05:22 [INFO] main: Scanning 12 pairs for signals...
+02:05:26 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.14x oi_Δ=+0.00%
+02:05:26 [INFO] main: SIGNAL: [20:35:26] LONG FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003674 | RSI=54.3 | vol
+02:05:26 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:05:27 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.16x oi_Δ=+0.00%
+02:05:27 [INFO] main: SIGNAL: [20:35:27] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003240 | RSI=40.8 | vol
+02:05:27 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:05:29 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.10x oi_Δ=+0.00%
+02:05:29 [INFO] main: SIGNAL: [20:35:29] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008653 | RSI=49.5 | vol
+02:05:29 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:05:30 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.08x oi_Δ=+0.00%
+02:05:30 [INFO] main: SIGNAL: [20:35:30] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006407 | RSI=44.6 | vol
+02:05:30 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:05:32 [INFO] strategies.confluence_engine: [BLESSUSDT] hype OK — vol=0.72x oi_Δ=+0.00% fund=0.005% bias=neutral
+02:05:32 [INFO] main: SIGNAL: [20:35:32] SHORT BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.006155 | RSI=67.7 | v
+02:05:32 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:05:33 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.15x oi_Δ=+0.00%
+02:05:33 [INFO] main: SIGNAL: [20:35:33] LONG JCTUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.002530 | RSI=54.6 | vol
+02:05:33 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:05:35 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.14x oi_Δ=+0.00%
+02:05:35 [INFO] main: SIGNAL: [20:35:35] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008305 | RSI=39.5 | vol
+02:05:35 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:05:37 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.05x oi_Δ=+0.00%
+02:05:37 [INFO] main: SIGNAL: [20:35:37] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000572 | RSI=32.3 | vol
+02:05:37 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:05:37 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.05x oi_Δ=+0.00%
+02:05:37 [INFO] main: SIGNAL: [20:35:37] SHORT GPSUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.009320 | RSI=58.9 | v
+02:05:37 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:20:59 [INFO] main: Scanning 12 pairs for signals...
+02:21:01 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.06x oi_Δ=+0.00%
+02:21:01 [INFO] main: SIGNAL: [20:51:01] SHORT FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.003729 | RSI=56.3 | v
+02:21:01 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:21:02 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.47x oi_Δ=+0.00% fund=0.010% bias=neutral
+02:21:02 [INFO] main: SIGNAL: [20:51:02] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003220 | RSI=34.8 | vol
+02:21:02 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:21:04 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.12x oi_Δ=+0.00%
+02:21:04 [INFO] main: SIGNAL: [20:51:04] SHORT XANUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.008730 | RSI=45.7 | v
+02:21:04 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:21:05 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.19x oi_Δ=+0.00%
+02:21:05 [INFO] main: SIGNAL: [20:51:05] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006407 | RSI=44.3 | vol
+02:21:05 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:21:08 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.23x oi_Δ=+0.00%
+02:21:08 [INFO] main: SIGNAL: [20:51:08] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002585 | RSI=56.9 | v
+02:21:08 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:21:10 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.17x oi_Δ=+0.00%
+02:21:10 [INFO] main: SIGNAL: [20:51:10] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000558 | RSI=39.3 | vol
+02:21:10 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:21:11 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=1.01x oi_Δ=+0.00% fund=0.004% bias=neutral
+02:21:11 [INFO] main: SIGNAL: [20:51:11] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000572 | RSI=30.8 | vol
+02:21:11 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:21:11 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+02:21:11 [INFO] main: SIGNAL: [20:51:11] SHORT GPSUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.009320 | RSI=58.9 | v
+02:21:11 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:36:20 [INFO] main: Scanning 12 pairs for signals...
+02:36:23 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.15x oi_Δ=+0.00%
+02:36:23 [INFO] main: SIGNAL: [21:06:23] SHORT FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003736 | RSI=56.9 | v
+02:36:23 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:36:24 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.35x oi_Δ=+0.00% fund=0.010% bias=neutral
+02:36:24 [INFO] main: SIGNAL: [21:06:24] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003220 | RSI=34.6 | vol
+02:36:24 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:36:25 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.28x oi_Δ=+0.00%
+02:36:25 [INFO] main: SIGNAL: [21:06:25] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008609 | RSI=45.7 | vol
+02:36:25 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:36:27 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.26x oi_Δ=+0.00%
+02:36:27 [INFO] main: SIGNAL: [21:06:27] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006407 | RSI=45.7 | vol
+02:36:27 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:36:28 [INFO] strategies.confluence_engine: [BLESSUSDT] hype OK — vol=0.74x oi_Δ=+0.00% fund=0.005% bias=neutral
+02:36:28 [INFO] main: SIGNAL: [21:06:28] SHORT BLESSUSDT | conf=0.75 | [CONFLUENCE x1] Reject at resistance 0.006222 | RSI=75.0 | v
+02:36:28 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:36:30 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.24x oi_Δ=+0.00%
+02:36:30 [INFO] main: SIGNAL: [21:06:30] SHORT JCTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.002585 | RSI=58.5 | v
+02:36:30 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:36:32 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.18x oi_Δ=+0.00%
+02:36:32 [INFO] main: SIGNAL: [21:06:32] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000559 | RSI=42.2 | vol
+02:36:32 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:36:33 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.06x oi_Δ=+0.00%
+02:36:33 [INFO] main: SIGNAL: [21:06:33] SHORT GPSUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.009310 | RSI=58.0 | v
+02:36:33 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:51:47 [INFO] main: Scanning 12 pairs for signals...
+02:51:49 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+02:51:49 [INFO] main: SIGNAL: [21:21:49] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003827 | RSI=37.3 | vol
+02:51:49 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:51:51 [INFO] strategies.confluence_engine: [GALAUSDT] hype BLOCK — ghost town: vol=0.19x oi_Δ=+0.00%
+02:51:51 [INFO] main: SIGNAL: [21:21:51] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003240 | RSI=41.6 | vol
+02:51:51 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:51:52 [INFO] strategies.confluence_engine: [XANUSDT] hype OK — vol=0.32x oi_Δ=+0.00% fund=0.005% bias=neutral
+02:51:52 [INFO] main: SIGNAL: [21:21:52] LONG XANUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008609 | RSI=44.7 | vol
+02:51:52 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:51:53 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.12x oi_Δ=+0.00%
+02:51:53 [INFO] main: SIGNAL: [21:21:53] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006416 | RSI=46.7 | vol
+02:51:53 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:51:56 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=0.59x oi_Δ=+0.00% fund=0.005% bias=neutral
+02:51:56 [INFO] main: SIGNAL: [21:21:56] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002567 | RSI=52.6 | v
+02:51:56 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:51:58 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.28x oi_Δ=+0.00%
+02:51:58 [INFO] main: SIGNAL: [21:21:58] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000562 | RSI=46.6 | vol
+02:51:58 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:51:59 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.04x oi_Δ=+0.00%
+02:51:59 [INFO] main: SIGNAL: [21:21:59] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000575 | RSI=40.9 | vol
+02:51:59 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+02:52:00 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.02x oi_Δ=+0.00%
+02:52:00 [INFO] main: SIGNAL: [21:22:00] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009430 | RSI=63.4 | v
+02:52:00 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+03:06:31 [INFO] main: Scanning 12 pairs for signals...
+03:06:33 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.27x oi_Δ=+0.00%
+03:06:33 [INFO] main: SIGNAL: [21:36:33] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003840 | RSI=43.0 | vol
+03:06:33 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+03:06:36 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.48x oi_Δ=+0.00% fund=0.010% bias=neutral
+03:06:36 [INFO] main: SIGNAL: [21:36:36] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003240 | RSI=41.6 | vol
+03:06:36 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+03:06:37 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.20x oi_Δ=+0.00%
+03:06:37 [INFO] main: SIGNAL: [21:36:37] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008609 | RSI=46.8 | vol
+03:06:37 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+03:06:41 [INFO] strategies.confluence_engine: [JCTUSDT] hype BLOCK — ghost town: vol=0.27x oi_Δ=+0.00%
+03:06:41 [INFO] main: SIGNAL: [21:36:41] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002567 | RSI=51.1 | v
+03:06:41 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+03:06:43 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=0.62x oi_Δ=+0.00% fund=-0.028% bias=neutral
+03:06:43 [INFO] main: SIGNAL: [21:36:43] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000567 | RSI=54.1 | vol
+03:06:43 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+03:06:44 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.49x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:06:44 [INFO] main: SIGNAL: [21:36:44] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000577 | RSI=43.4 | vol
+03:06:44 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+03:06:45 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+03:06:45 [INFO] main: SIGNAL: [21:36:45] SHORT GPSUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.009540 | RSI=69.9 | v
+03:06:45 [WARNING] execution.trade_executor: Trade blocked: Daily loss limit hit: 6.4% (limit 5.0%)
+03:06:49 [INFO] main: Shutting down bot...
+03:06:49 [INFO] main: Final stats: {'balance': np.float64(22.22), 'peak_balance': 24.0, 'total_trades': 9, 'win_rate': 22.2, 'avg_win': np.float64(0.61), 'avg_loss': np.float64(-0.43), 'daily_pnl': np.float64(-1.78), 'drawdown_pct': np.float64(7.43), 'consecutive_losses': 0, 'open_positions': 0, 'trading_halted': True, 'halt_reason': 'Daily loss limit hit: 6.4% (limit 5.0%)'}
+03:08:02 [INFO] main: Initializing bot in PAPER mode
+03:08:02 [INFO] main: Bot started. Press Ctrl+C to stop.
+03:08:02 [INFO] main: Scanning 12 pairs for signals...
+03:08:03 [INFO] strategies.confluence_engine: [1000PEPEUSDT] hype BLOCK — ghost town: vol=0.30x oi_Δ=+0.00%
+03:08:03 [INFO] main: SIGNAL: [21:38:03] LONG 1000PEPEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.003840 | RSI=43.7 | vol
+03:08:03 [INFO] execution.trade_executor: Executing LONG 1000PEPEUSDT | qty=5741.626794 entry=0.0039 SL=0.0038 TP=0.0039 | R:R=2.00 | risk=1.00%
+03:08:03 [INFO] execution.trade_executor: [PAPER] Trade opened: T0001_1000PEPEUSDT
+03:08:03 [INFO] main: TRADE OPENED: T0001_1000PEPEUSDT LONG 1000PEPEUSDT @ 0.0039 SL=0.0038 TP=0.0039
+03:08:05 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=0.63x oi_Δ=+0.00% fund=0.010% bias=neutral
+03:08:05 [INFO] main: SIGNAL: [21:38:05] LONG GALAUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.003240 | RSI=41.6 | vol
+03:08:05 [INFO] execution.trade_executor: Executing LONG GALAUSDT | qty=6629.834254 entry=0.0033 SL=0.0032 TP=0.0033 | R:R=2.00 | risk=1.00%
+03:08:05 [INFO] execution.trade_executor: [PAPER] Trade opened: T0002_GALAUSDT
+03:08:05 [INFO] main: TRADE OPENED: T0002_GALAUSDT LONG GALAUSDT @ 0.0033 SL=0.0032 TP=0.0033
+03:08:07 [INFO] strategies.confluence_engine: [XANUSDT] hype BLOCK — ghost town: vol=0.21x oi_Δ=+0.00%
+03:08:07 [INFO] main: SIGNAL: [21:38:07] LONG XANUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008609 | RSI=46.5 | vol
+03:08:07 [INFO] execution.trade_executor: Executing LONG XANUSDT | qty=2104.432461 entry=0.0087 SL=0.0086 TP=0.0089 | R:R=2.00 | risk=1.00%
+03:08:07 [INFO] execution.trade_executor: [PAPER] Trade opened: T0003_XANUSDT
+03:08:07 [INFO] main: TRADE OPENED: T0003_XANUSDT LONG XANUSDT @ 0.0087 SL=0.0086 TP=0.0089
+03:08:11 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=0.31x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:08:11 [INFO] main: SIGNAL: [21:38:11] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002567 | RSI=51.1 | v
+03:08:11 [INFO] execution.trade_executor: Executing SHORT JCTUSDT | qty=6697.362913 entry=0.0025 SL=0.0026 TP=0.0025 | R:R=2.00 | risk=1.00%
+03:08:11 [INFO] execution.trade_executor: [PAPER] Trade opened: T0004_JCTUSDT
+03:08:11 [INFO] main: TRADE OPENED: T0004_JCTUSDT SHORT JCTUSDT @ 0.0025 SL=0.0026 TP=0.0025
+03:08:13 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=0.85x oi_Δ=+0.00% fund=-0.028% bias=neutral
+03:08:13 [INFO] main: SIGNAL: [21:38:13] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000567 | RSI=53.0 | vol
+03:08:13 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:08:13 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.49x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:08:13 [INFO] main: SIGNAL: [21:38:13] LONG MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000577 | RSI=43.4 | vol
+03:08:13 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:09:06 [INFO] main: Scanning 12 pairs for signals...
+03:09:11 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.24x oi_Δ=+0.00%
+03:09:11 [INFO] main: SIGNAL: [21:39:11] LONG PENGUUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008308 | RSI=40.1 | vol
+03:09:11 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:09:12 [INFO] strategies.confluence_engine: [GPSUSDT] hype OK — vol=0.32x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:09:12 [INFO] main: SIGNAL: [21:39:12] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009540 | RSI=69.5 | v
+03:09:12 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:10:08 [INFO] main: Scanning 12 pairs for signals...
+03:11:09 [INFO] main: Scanning 12 pairs for signals...
+03:12:10 [INFO] main: Scanning 12 pairs for signals...
+03:13:11 [INFO] main: Scanning 12 pairs for signals...
+03:14:12 [INFO] main: Scanning 12 pairs for signals...
+03:14:17 [INFO] strategies.confluence_engine: [PENGUUSDT] hype OK — vol=0.52x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:14:17 [INFO] main: SIGNAL: [21:44:17] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008308 | RSI=42.0 | vol
+03:14:17 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:14:18 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=1.12x oi_Δ=+0.00% fund=-0.029% bias=neutral
+03:14:18 [INFO] main: SIGNAL: [21:44:18] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000564 | RSI=49.2 | vol
+03:14:18 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:14:19 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.50x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:14:19 [INFO] main: SIGNAL: [21:44:19] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000577 | RSI=45.9 | vol
+03:14:19 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:14:20 [INFO] strategies.confluence_engine: [GPSUSDT] hype OK — vol=0.54x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:14:20 [INFO] main: SIGNAL: [21:44:20] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009540 | RSI=68.5 | v
+03:14:20 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:15:17 [INFO] main: Scanning 12 pairs for signals...
+03:15:20 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+03:15:20 [INFO] main: SIGNAL: [21:45:20] LONG 1000BONKUSDT | conf=0.75 | [CONFLUENCE x2] EMA9 crossed above EMA21 | RSI=55.1 | ADX=19
+03:15:20 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:16:18 [INFO] main: Scanning 12 pairs for signals...
+03:17:18 [INFO] main: Scanning 12 pairs for signals...
+03:18:22 [INFO] main: Scanning 12 pairs for signals...
+03:19:27 [INFO] main: Scanning 12 pairs for signals...
+03:19:31 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+03:19:31 [INFO] main: SIGNAL: [21:49:31] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008308 | RSI=42.4 | vol
+03:19:31 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:19:32 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+03:19:32 [INFO] main: SIGNAL: [21:49:32] LONG BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000562 | RSI=47.9 | vol
+03:19:32 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:19:33 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.50x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:19:33 [INFO] main: SIGNAL: [21:49:33] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000577 | RSI=48.3 | vol
+03:19:33 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:19:34 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.14x oi_Δ=+0.00%
+03:19:34 [INFO] main: SIGNAL: [21:49:34] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009520 | RSI=67.5 | v
+03:19:34 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:20:30 [INFO] main: Scanning 12 pairs for signals...
+03:20:33 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.27x oi_Δ=+0.00%
+03:20:33 [INFO] main: SIGNAL: [21:50:33] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006429 | RSI=52.4 | vol
+03:20:33 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:21:31 [INFO] main: Scanning 12 pairs for signals...
+03:22:36 [INFO] main: Scanning 12 pairs for signals...
+03:23:42 [INFO] main: Scanning 12 pairs for signals...
+03:24:44 [INFO] main: Scanning 12 pairs for signals...
+03:24:49 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.13x oi_Δ=+0.00%
+03:24:49 [INFO] main: SIGNAL: [21:54:49] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008308 | RSI=42.6 | vol
+03:24:49 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:24:50 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.16x oi_Δ=+0.00%
+03:24:50 [INFO] main: SIGNAL: [21:54:50] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000562 | RSI=46.7 | vol
+03:24:50 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:24:51 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.82x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:24:51 [INFO] main: SIGNAL: [21:54:51] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000577 | RSI=45.9 | vol
+03:24:51 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:24:52 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.27x oi_Δ=+0.00%
+03:24:52 [INFO] main: SIGNAL: [21:54:52] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009520 | RSI=65.6 | v
+03:24:52 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:25:50 [INFO] main: Scanning 12 pairs for signals...
+03:26:51 [INFO] main: Scanning 12 pairs for signals...
+03:27:51 [INFO] main: Scanning 12 pairs for signals...
+03:28:52 [INFO] main: Scanning 12 pairs for signals...
+03:28:54 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.58x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:28:54 [INFO] main: SIGNAL: [21:58:54] SHORT 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.006496 | RSI=48.6 | v
+03:28:54 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:29:57 [INFO] main: Scanning 12 pairs for signals...
+03:30:04 [INFO] strategies.confluence_engine: [PENGUUSDT] hype OK — vol=0.72x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:30:04 [INFO] main: SIGNAL: [22:00:04] LONG PENGUUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008308 | RSI=41.1 | vol
+03:30:04 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:30:05 [INFO] strategies.confluence_engine: [BOMEUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+03:30:05 [INFO] main: SIGNAL: [22:00:05] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000562 | RSI=46.7 | vol
+03:30:05 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:30:06 [INFO] strategies.confluence_engine: [MEMEUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+03:30:06 [INFO] main: SIGNAL: [22:00:06] LONG MEMEUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.000577 | RSI=45.9 | vol
+03:30:06 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:30:07 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+03:30:07 [INFO] main: SIGNAL: [22:00:07] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009520 | RSI=66.6 | v
+03:30:07 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:30:58 [INFO] main: Scanning 12 pairs for signals...
+03:32:04 [INFO] main: Scanning 12 pairs for signals...
+03:33:10 [INFO] main: Scanning 12 pairs for signals...
+03:34:15 [INFO] main: Scanning 12 pairs for signals...
+03:35:15 [INFO] main: Scanning 12 pairs for signals...
+03:35:18 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.28x oi_Δ=+0.00%
+03:35:18 [INFO] main: SIGNAL: [22:05:18] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006402 | RSI=45.2 | vol
+03:35:18 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:35:21 [INFO] strategies.confluence_engine: [PENGUUSDT] hype OK — vol=0.32x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:35:21 [INFO] main: SIGNAL: [22:05:21] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008308 | RSI=44.5 | vol
+03:35:21 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:35:23 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.16x oi_Δ=+0.00%
+03:35:23 [INFO] main: SIGNAL: [22:05:23] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009520 | RSI=65.6 | v
+03:35:23 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:36:21 [INFO] main: Scanning 12 pairs for signals...
+03:37:21 [INFO] main: Scanning 12 pairs for signals...
+03:38:22 [INFO] main: Scanning 12 pairs for signals...
+03:38:25 [INFO] strategies.confluence_engine: [BLESSUSDT] hype OK — vol=1.36x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:38:25 [INFO] main: SIGNAL: [22:08:25] SHORT BLESSUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.006222 | RSI=69.2 | v
+03:38:25 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:39:23 [INFO] main: Scanning 12 pairs for signals...
+03:39:26 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=0.77x oi_Δ=+0.00% fund=-0.032% bias=neutral
+03:39:26 [INFO] main: SIGNAL: [22:09:26] LONG BOMEUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.000559 | RSI=43.0 | vol
+03:39:26 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:40:24 [INFO] main: Scanning 12 pairs for signals...
+03:40:27 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.51x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:40:27 [INFO] main: SIGNAL: [22:10:27] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006420 | RSI=47.7 | vol
+03:40:27 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:40:29 [INFO] strategies.confluence_engine: [PENGUUSDT] hype OK — vol=0.46x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:40:29 [INFO] main: SIGNAL: [22:10:29] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008308 | RSI=43.1 | vol
+03:40:29 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:40:30 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.16x oi_Δ=+0.00%
+03:40:30 [INFO] main: SIGNAL: [22:10:30] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009520 | RSI=64.6 | v
+03:40:30 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:41:28 [INFO] main: Scanning 12 pairs for signals...
+03:42:34 [INFO] main: Scanning 12 pairs for signals...
+03:43:41 [INFO] main: Scanning 12 pairs for signals...
+03:43:43 [INFO] strategies.confluence_engine: [BLESSUSDT] hype OK — vol=1.59x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:43:43 [INFO] main: SIGNAL: [22:13:43] SHORT BLESSUSDT | conf=0.70 | [CONFLUENCE x1] Reject at resistance 0.006222 | RSI=69.2 | v
+03:43:43 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:44:47 [INFO] main: Scanning 12 pairs for signals...
+03:45:53 [INFO] main: Scanning 12 pairs for signals...
+03:45:56 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+03:45:56 [INFO] main: SIGNAL: [22:15:56] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006416 | RSI=47.0 | vol
+03:45:56 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:45:58 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+03:45:58 [INFO] main: SIGNAL: [22:15:58] LONG PENGUUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.008308 | RSI=43.4 | vol
+03:45:58 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:46:00 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+03:46:00 [INFO] main: SIGNAL: [22:16:00] SHORT GPSUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.009460 | RSI=62.6 | v
+03:46:00 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:46:57 [INFO] main: Scanning 12 pairs for signals...
+03:46:59 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.19x oi_Δ=+0.00%
+03:46:59 [INFO] main: SIGNAL: [22:16:59] SHORT FIGHTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003794 | RSI=61.0 | v
+03:46:59 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:48:04 [INFO] main: Scanning 12 pairs for signals...
+03:49:08 [INFO] main: Scanning 12 pairs for signals...
+03:49:10 [INFO] strategies.confluence_engine: [BLESSUSDT] hype BLOCK — ghost town: vol=0.17x oi_Δ=+0.00%
+03:49:10 [INFO] main: SIGNAL: [22:19:10] SHORT BLESSUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.006222 | RSI=68.2 | v
+03:49:10 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:50:09 [INFO] main: Scanning 12 pairs for signals...
+03:55:48 [INFO] main: Scanning 12 pairs for signals...
+03:55:50 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=2.11x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:55:50 [INFO] main: SIGNAL: [22:25:50] SHORT FIGHTUSDT | conf=0.70 | [CONFLUENCE x1] Reject at resistance 0.003761 | RSI=56.6 | v
+03:55:50 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:55:53 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.55x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:55:53 [INFO] main: SIGNAL: [22:25:53] LONG 1000BONKUSDT | conf=0.50 | [CONFLUENCE x1] Bounce off support 0.006385 | RSI=44.3 | vol
+03:55:53 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:55:54 [INFO] strategies.confluence_engine: [BLESSUSDT] hype OK — vol=1.69x oi_Δ=+0.00% fund=0.005% bias=neutral
+03:55:54 [INFO] main: SIGNAL: [22:25:54] SHORT BLESSUSDT | conf=0.70 | [CONFLUENCE x1] Reject at resistance 0.006156 | RSI=59.4 | v
+03:55:54 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:55:56 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.30x oi_Δ=+0.00%
+03:55:56 [INFO] main: SIGNAL: [22:25:56] LONG PENGUUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008308 | RSI=40.7 | vol
+03:55:56 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:56:48 [INFO] main: Scanning 12 pairs for signals...
+03:57:53 [INFO] main: Scanning 12 pairs for signals...
+03:57:55 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.09x oi_Δ=+0.00%
+03:57:55 [INFO] main: SIGNAL: [22:27:55] SHORT GPSUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.009460 | RSI=62.6 | v
+03:57:55 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+03:58:34 [INFO] execution.trade_executor: ❌ [PAPER] STOP_LOSS: GALAUSDT LONG entry=0.0033 exit=0.0032 PnL=$-0.25 (-1.13%)
+03:58:58 [INFO] main: Scanning 12 pairs for signals...
+04:00:02 [INFO] main: Scanning 12 pairs for signals...
+04:01:07 [INFO] main: Scanning 12 pairs for signals...
+04:01:09 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype BLOCK — ghost town: vol=0.05x oi_Δ=+0.00%
+04:01:09 [INFO] main: SIGNAL: [22:31:09] SHORT FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.003758 | RSI=56.2 | v
+04:01:09 [WARNING] execution.trade_executor: Invalid signal for FIGHTUSDT: R:R=1.32
+04:01:11 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype BLOCK — ghost town: vol=0.03x oi_Δ=+0.00%
+04:01:11 [INFO] main: SIGNAL: [22:31:11] LONG 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.006402 | RSI=45.4 | vol
+04:01:11 [INFO] execution.trade_executor: Executing LONG 1000BONKUSDT | qty=3442.210713 entry=0.0064 SL=0.0064 TP=0.0066 | R:R=2.00 | risk=1.00%
+04:01:11 [INFO] execution.trade_executor: [PAPER] Trade opened: T0005_1000BONKUSDT
+04:01:11 [INFO] main: TRADE OPENED: T0005_1000BONKUSDT LONG 1000BONKUSDT @ 0.0064 SL=0.0064 TP=0.0066
+04:01:13 [INFO] strategies.confluence_engine: [BLESSUSDT] hype BLOCK — ghost town: vol=0.24x oi_Δ=+0.00%
+04:01:13 [INFO] main: SIGNAL: [22:31:13] SHORT BLESSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.006155 | RSI=55.8 | v
+04:01:13 [INFO] execution.trade_executor: Executing SHORT BLESSUSDT | qty=2646.025746 entry=0.0061 SL=0.0062 TP=0.0059 | R:R=2.00 | risk=1.00%
+04:01:13 [INFO] execution.trade_executor: [PAPER] Trade opened: T0006_BLESSUSDT
+04:01:13 [INFO] main: TRADE OPENED: T0006_BLESSUSDT SHORT BLESSUSDT @ 0.0061 SL=0.0062 TP=0.0059
+04:01:14 [INFO] strategies.confluence_engine: [PENGUUSDT] hype BLOCK — ghost town: vol=0.01x oi_Δ=+0.00%
+04:01:14 [INFO] main: SIGNAL: [22:31:14] LONG PENGUUSDT | conf=0.60 | [CONFLUENCE x1] Bounce off support 0.008305 | RSI=40.8 | vol
+04:01:14 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+04:16:36 [INFO] main: Scanning 12 pairs for signals...
+04:16:42 [INFO] strategies.confluence_engine: [GPSUSDT] hype BLOCK — ghost town: vol=0.00x oi_Δ=+0.00%
+04:16:42 [INFO] main: SIGNAL: [22:46:42] SHORT GPSUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.009460 | RSI=61.6 | v
+04:16:42 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+04:23:20 [INFO] main: Scanning 12 pairs for signals...
+04:23:22 [INFO] strategies.confluence_engine: [FIGHTUSDT] hype OK — vol=0.63x oi_Δ=+0.00% fund=0.005% bias=neutral
+04:23:22 [INFO] main: SIGNAL: [22:53:22] SHORT FIGHTUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.003761 | RSI=56.4 | v
+04:23:22 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+04:23:26 [INFO] main: Shutting down bot...
+04:23:26 [INFO] main: Final stats: {'balance': np.float64(23.75), 'peak_balance': 24.0, 'total_trades': 1, 'win_rate': 0.0, 'avg_win': 0, 'avg_loss': np.float64(-0.25), 'daily_pnl': np.float64(-0.25), 'drawdown_pct': np.float64(1.02), 'consecutive_losses': 1, 'open_positions': 4, 'trading_halted': False, 'halt_reason': ''}

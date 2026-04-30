@@ -1,0 +1,116 @@
+06:38:19 [INFO] main: Initializing bot in PAPER mode
+06:38:19 [INFO] main: Bot started. Press Ctrl+C to stop.
+06:38:19 [INFO] main: Scanning 12 pairs for signals...
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for 1000PEPEUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for 1000PEPEUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for 1000PEPEUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for FIGHTUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for FIGHTUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for FIGHTUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for GALAUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for GALAUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for GALAUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for XANUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for XANUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for XANUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for 1000BONKUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for 1000BONKUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for 1000BONKUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for BLESSUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for BLESSUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for BLESSUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for JCTUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for JCTUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for JCTUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for TRUUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for TRUUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for TRUUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for PENGUUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for PENGUUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for PENGUUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for BOMEUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for BOMEUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for BOMEUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for MEMEUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for MEMEUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for MEMEUSDT 4h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for GPSUSDT 15m on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for GPSUSDT 1h on both spot and futures
+06:38:19 [ERROR] core.data_fetcher: Candles unavailable for GPSUSDT 4h on both spot and futures
+06:39:06 [INFO] main: Shutting down bot...
+06:39:06 [INFO] main: Final stats: {'balance': 24.0, 'peak_balance': 24.0, 'total_trades': 0, 'win_rate': 0, 'avg_win': 0, 'avg_loss': 0, 'daily_pnl': 0.0, 'drawdown_pct': 0.0, 'consecutive_losses': 0, 'open_positions': 0, 'trading_halted': False, 'halt_reason': ''}
+06:39:08 [INFO] main: Initializing bot in PAPER mode
+06:39:08 [INFO] main: Bot started. Press Ctrl+C to stop.
+06:39:08 [INFO] main: Scanning 12 pairs for signals...
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for 1000PEPEUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for 1000PEPEUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for 1000PEPEUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for FIGHTUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for FIGHTUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for FIGHTUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for GALAUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for GALAUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for GALAUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for XANUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for XANUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for XANUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for 1000BONKUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for 1000BONKUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for 1000BONKUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for BLESSUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for BLESSUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for BLESSUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for JCTUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for JCTUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for JCTUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for TRUUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for TRUUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for TRUUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for PENGUUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for PENGUUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for PENGUUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for BOMEUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for BOMEUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for BOMEUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for MEMEUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for MEMEUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for MEMEUSDT 4h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for GPSUSDT 15m on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for GPSUSDT 1h on both spot and futures
+06:39:08 [ERROR] core.data_fetcher: Candles unavailable for GPSUSDT 4h on both spot and futures
+06:39:18 [INFO] main: Shutting down bot...
+06:39:18 [INFO] main: Final stats: {'balance': 24.0, 'peak_balance': 24.0, 'total_trades': 0, 'win_rate': 0, 'avg_win': 0, 'avg_loss': 0, 'daily_pnl': 0.0, 'drawdown_pct': 0.0, 'consecutive_losses': 0, 'open_positions': 0, 'trading_halted': False, 'halt_reason': ''}
+06:39:21 [INFO] main: Initializing bot in PAPER mode
+06:39:21 [INFO] main: Bot started. Press Ctrl+C to stop.
+06:39:21 [INFO] main: Scanning 12 pairs for signals...
+06:39:31 [INFO] strategies.confluence_engine: [GALAUSDT] hype OK — vol=1.16x oi_Δ=+0.00% fund=0.010% bias=neutral
+06:39:31 [INFO] main: SIGNAL: [01:09:31] SHORT GALAUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.003250 | RSI=56.1 | v
+06:39:31 [INFO] execution.trade_executor: Executing SHORT GALAUSDT | qty=6620.689655 entry=0.0032 SL=0.0033 TP=0.0032 | R:R=2.00 | risk=1.00%
+06:39:31 [INFO] execution.trade_executor: [PAPER] Trade opened: T0001_GALAUSDT
+06:39:31 [INFO] main: TRADE OPENED: T0001_GALAUSDT SHORT GALAUSDT @ 0.0032 SL=0.0033 TP=0.0032
+06:39:37 [INFO] strategies.confluence_engine: [1000BONKUSDT] hype OK — vol=0.61x oi_Δ=+0.00% fund=0.005% bias=neutral
+06:39:37 [INFO] main: SIGNAL: [01:09:37] SHORT 1000BONKUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.006375 | RSI=49.4 | v
+06:39:37 [INFO] execution.trade_executor: Executing SHORT 1000BONKUSDT | qty=3484.573503 entry=0.0063 SL=0.0064 TP=0.0062 | R:R=2.00 | risk=1.00%
+06:39:37 [INFO] execution.trade_executor: [PAPER] Trade opened: T0002_1000BONKUSDT
+06:39:37 [INFO] main: TRADE OPENED: T0002_1000BONKUSDT SHORT 1000BONKUSDT @ 0.0063 SL=0.0064 TP=0.0062
+06:39:45 [INFO] strategies.confluence_engine: [JCTUSDT] hype OK — vol=0.32x oi_Δ=+0.00% fund=0.005% bias=neutral
+06:39:45 [INFO] main: SIGNAL: [01:09:45] SHORT JCTUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.002527 | RSI=60.3 | v
+06:39:45 [INFO] execution.trade_executor: Executing SHORT JCTUSDT | qty=6929.406670 entry=0.0025 SL=0.0025 TP=0.0024 | R:R=2.00 | risk=1.00%
+06:39:45 [INFO] execution.trade_executor: [PAPER] Trade opened: T0003_JCTUSDT
+06:39:45 [INFO] main: TRADE OPENED: T0003_JCTUSDT SHORT JCTUSDT @ 0.0025 SL=0.0025 TP=0.0024
+06:39:50 [INFO] strategies.confluence_engine: [BOMEUSDT] hype OK — vol=0.50x oi_Δ=+0.00% fund=0.001% bias=neutral
+06:39:50 [INFO] main: SIGNAL: [01:09:50] SHORT BOMEUSDT | conf=0.50 | [CONFLUENCE x1] Reject at resistance 0.000533 | RSI=58.3 | v
+06:39:50 [INFO] execution.trade_executor: Executing SHORT BOMEUSDT | qty=36009.002251 entry=0.0005 SL=0.0005 TP=0.0005 | R:R=1.69 | risk=1.00%
+06:39:50 [INFO] execution.trade_executor: [PAPER] Trade opened: T0004_BOMEUSDT
+06:39:50 [INFO] main: TRADE OPENED: T0004_BOMEUSDT SHORT BOMEUSDT @ 0.0005 SL=0.0005 TP=0.0005
+06:39:52 [INFO] strategies.confluence_engine: [MEMEUSDT] hype OK — vol=0.52x oi_Δ=+0.00% fund=0.005% bias=neutral
+06:39:52 [INFO] main: SIGNAL: [01:09:52] SHORT MEMEUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.000573 | RSI=56.0 | v
+06:39:52 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+06:40:22 [INFO] main: Scanning 12 pairs for signals...
+06:41:13 [INFO] strategies.confluence_engine: [PENGUUSDT] hype OK — vol=2.01x oi_Δ=+0.00% fund=0.004% bias=neutral
+06:41:13 [INFO] main: SIGNAL: [01:11:13] SHORT PENGUUSDT | conf=0.60 | [CONFLUENCE x1] Reject at resistance 0.008634 | RSI=59.8 | v
+06:41:13 [WARNING] execution.trade_executor: Trade blocked: Max concurrent trades reached (4)
+06:41:32 [INFO] main: Scanning 12 pairs for signals...
+06:42:49 [INFO] main: Scanning 12 pairs for signals...
+06:42:53 [INFO] main: Shutting down bot...
+06:42:53 [INFO] main: Final stats: {'balance': 24.0, 'peak_balance': 24.0, 'total_trades': 0, 'win_rate': 0, 'avg_win': 0, 'avg_loss': 0, 'daily_pnl': 0.0, 'drawdown_pct': 0.0, 'consecutive_losses': 0, 'open_positions': 4, 'trading_halted': False, 'halt_reason': ''}

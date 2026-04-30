@@ -60,7 +60,7 @@ export default function TickerBar() {
         .ticker-track {
           display: flex;
           gap: 0;
-          animation: ticker-scroll 40s linear infinite;
+          animation: ticker-scroll 180s linear infinite;
           will-change: transform;
           white-space: nowrap;
         }

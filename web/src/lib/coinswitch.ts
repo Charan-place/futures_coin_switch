@@ -43,6 +43,39 @@ async function csGet<T>(path: string, params?: Record<string, string>): Promise<
   return res.json();
 }
 
+async function csPost<T>(path: string, body: Record<string, unknown>): Promise<T> {
+  const headers = makeHeaders("POST", path);
+  const res = await fetch(BASE_URL + path, { method: "POST", headers, body: JSON.stringify(body), cache: "no-store" });
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`CoinSwitch ${path} → ${res.status}: ${text}`);
+  }
+  return res.json();
+}
+
+export interface OrderPayload {
+  symbol: string;
+  side: "BUY" | "SELL";
+  quantity: number;
+  reduceOnly?: boolean;
+}
+
+export async function placeOrder(o: OrderPayload) {
+  return csPost("/trade/api/v2/futures/order", {
+    exchange: "EXCHANGE_2",
+    symbol: o.symbol,
+    side: o.side,
+    order_type: "MARKET",
+    quantity: o.quantity,
+    reduce_only: o.reduceOnly ?? false,
+  });
+}
+
+export const PAIRS = [
+  "1000PEPEUSDT","FIGHTUSDT","GALAUSDT","XANUSDT","1000BONKUSDT",
+  "BLESSUSDT","JCTUSDT","TRUUSDT","PENGUUSDT","BOMEUSDT","MEMEUSDT","GPSUSDT",
+];
+
 export async function fetchPortfolio(): Promise<Portfolio> {
   const data = await csGet<{ data: { base_asset_balances: { base_asset: string; balances: Record<string, number> }[] } }>(
     "/trade/api/v2/futures/wallet_balance"
@@ -76,11 +109,6 @@ export async function fetchPositions(): Promise<Position[]> {
     liquidationPrice: Number(p.liquidation_price),
   }));
 }
-
-const PAIRS = [
-  "1000PEPEUSDT","FIGHTUSDT","GALAUSDT","XANUSDT","1000BONKUSDT",
-  "BLESSUSDT","JCTUSDT","TRUUSDT","PENGUUSDT","BOMEUSDT","MEMEUSDT","GPSUSDT",
-];
 
 export async function fetchTransactions(): Promise<Transaction[]> {
   const results = await Promise.allSettled(

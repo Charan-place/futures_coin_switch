@@ -2,7 +2,7 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import type { Portfolio, Position } from "@/lib/types";
 
-type BotStatus = { running: boolean; pid: number | null; mode: "paper" | "live" | null; startedAt: string | null };
+type BotStatus = { running: boolean; pid: number | null; mode: "paper" | "live" | null; startedAt: string | null; balance: number | null };
 
 function fmt(n: number, d = 2) {
   return n.toLocaleString("en-IN", { minimumFractionDigits: d, maximumFractionDigits: d });
@@ -26,6 +26,7 @@ function Uptime({ startedAt }: { startedAt: string }) {
 function BotControl() {
   const [status, setStatus] = useState<BotStatus | null>(null);
   const [mode, setMode] = useState<"paper" | "live">("paper");
+  const [balance, setBalance] = useState<string>("1000");
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState<string | null>(null);
 
@@ -46,7 +47,7 @@ function BotControl() {
     if (mode === "live" && !confirm("Start bot in LIVE mode? Real orders will be placed.")) return;
     setBusy(true); setErr(null);
     try {
-      const r = await fetch("/api/bot/start", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ mode }) });
+      const r = await fetch("/api/bot/start", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ mode, balance: parseFloat(balance) || 1000 }) });
       const d = await r.json();
       if (d.error) throw new Error(d.error);
       setStatus(d);
@@ -58,7 +59,7 @@ function BotControl() {
     setBusy(true); setErr(null);
     try {
       await fetch("/api/bot/stop", { method: "POST" });
-      setStatus({ running: false, pid: null, mode: null, startedAt: null });
+      setStatus({ running: false, pid: null, mode: null, startedAt: null, balance: null });
     } catch (e) { setErr(String(e)); }
     setBusy(false);
   }
@@ -119,12 +120,25 @@ function BotControl() {
             <select
               value={mode}
               onChange={(e) => setMode(e.target.value as "paper" | "live")}
-              className="rounded-lg px-3 py-2 text-sm flex-1 outline-none"
-              style={{ background: "var(--surface)", border: "1px solid var(--border)", color: "var(--text)" }}
+              className="rounded-lg px-3 py-2 text-sm outline-none"
+              style={{ background: "var(--surface)", border: "1px solid var(--border)", color: "var(--text)", flex: 2 }}
             >
               <option value="paper">📄 Paper Trading — Simulated</option>
               <option value="live">⚡ Live Trading — Real Money</option>
             </select>
+            <div className="flex items-center rounded-lg overflow-hidden" style={{ border: "1px solid var(--border)", flex: 1 }}>
+              <span className="px-3 py-2 text-sm" style={{ background: "var(--surface)", color: "var(--muted)", borderRight: "1px solid var(--border)" }}>₮</span>
+              <input
+                type="number"
+                value={balance}
+                onChange={(e) => setBalance(e.target.value)}
+                min={100}
+                step={100}
+                placeholder="1000"
+                className="px-3 py-2 text-sm w-full outline-none font-mono"
+                style={{ background: "var(--bg)", color: "var(--text)" }}
+              />
+            </div>
             <button
               onClick={start}
               disabled={busy}
@@ -136,12 +150,16 @@ function BotControl() {
           </>
         ) : (
           <>
-            <div className="flex-1 text-sm" style={{ color: "var(--muted)" }}>
-              Bot running in{" "}
+            <div className="flex-1 text-sm flex items-center gap-3" style={{ color: "var(--muted)" }}>
+              Running in{" "}
               <span className="font-semibold" style={{ color: isLive ? "var(--red)" : "var(--green)" }}>
                 {status?.mode}
-              </span>{" "}
-              mode. Press stop to terminate.
+              </span>
+              {status?.balance != null && (
+                <span className="px-2 py-0.5 rounded text-xs font-mono" style={{ background: "var(--border)", color: "var(--text)" }}>
+                  ₮ {fmt(status.balance)} capital
+                </span>
+              )}
             </div>
             <button
               onClick={stop}

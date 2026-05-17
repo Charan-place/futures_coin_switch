@@ -17,9 +17,12 @@ from strategies.ema_rsi_strategy import EmaRsiStrategy
 from strategies.breakout_strategy import BreakoutStrategy
 from strategies.mtf_trend_strategy import MtfTrendStrategy
 from strategies.sr_bounce_strategy import SrBounceStrategy
+from strategies.scalp_momentum_strategy import ScalpMomentumStrategy
+from strategies.pump_detector import PumpDetectorStrategy
 from strategies.hype_filter import HypeFilter
 from config.settings import (
     STRATEGY_EMA_RSI, STRATEGY_BREAKOUT, STRATEGY_MTF_TREND, STRATEGY_SR_BOUNCE,
+    STRATEGY_SCALP, STRATEGY_PUMP,
     MIN_CONFLUENCE_SIGNALS, ADX_TREND_THRESHOLD, USE_HYPE_FILTER, IS_PAPER,
     MIN_CONFLUENCE_AVG_CONFIDENCE, SOLO_SR_MIN_CONFIDENCE, SOLO_SR_MIN_VOL_RATIO,
     ALLOW_SOLO_TREND, SOLO_TREND_MIN_CONFIDENCE,
@@ -47,6 +50,15 @@ class ConfluenceEngine:
         if STRATEGY_SR_BOUNCE:
             self.strategies.append(SrBounceStrategy())
 
+        # Fast-path strategies: operate on 5m and have solo-fire privileges
+        # when their confidence is very high. They bypass the 2-strategy
+        # confluence gate because they are already multi-factor internally.
+        self.scalp_strategy = ScalpMomentumStrategy() if STRATEGY_SCALP else None
+        self.pump_strategy  = PumpDetectorStrategy()  if STRATEGY_PUMP  else None
+        self._fast_strategies: List[BaseStrategy] = [
+            s for s in [self.scalp_strategy, self.pump_strategy] if s is not None
+        ]
+
         # Standalone helper used to compute 4H trend bias for the SR-alignment
         # filter, even when MTF_TREND itself is disabled.
         self._mtf_helper = MtfTrendStrategy()
@@ -63,6 +75,77 @@ class ConfluenceEngine:
             f"hype_strict={self.hype_strict} agent_arms={len(self.agent.arms)} "
             f"agent_trades={self.agent.global_trades}"
         )
+
+    def evaluate_fast(self, symbol: str, df_5m: pd.DataFrame) -> Optional[TradeSignal]:
+        """Fast-path evaluation for 5m scalp/pump strategies.
+        These strategies are internally multi-factor (VWAP+Supertrend+Volume+StochRSI)
+        so they fire solo without the swing-strategy confluence gate.
+        Hype filter still applies (volume/funding/deadzone gate).
+        """
+        if not self._fast_strategies:
+            return None
+
+        best: Optional[TradeSignal] = None
+
+        for strategy in self._fast_strategies:
+            try:
+                sig = strategy.analyze(df_5m, symbol)
+                if sig.signal == Signal.NONE:
+                    rsn = (sig.reason or "").strip()
+                    logger.info(f"[{symbol}] {strategy.name} fast → ∅ ({rsn})")
+                    continue
+
+                # Agent confidence multiplier
+                mult = self.agent.confidence_multiplier(strategy.name, symbol)
+                if mult != 1.0:
+                    sig.confidence = max(0.0, min(1.0, sig.confidence * mult))
+
+                logger.info(
+                    f"[{symbol}] {strategy.name} fast → {sig.signal.value} "
+                    f"conf={sig.confidence:.2f} | {sig.reason[:70]}"
+                )
+
+                # Hype filter
+                if self.hype_filter is not None:
+                    verdict = self.hype_filter.evaluate(symbol, df_5m)
+                    logger.info(f"[{symbol}] hype {'OK' if verdict.passed else 'BLOCK'} — {verdict.reason}")
+                    if self.hype_strict:
+                        if not verdict.passed:
+                            continue
+                        if verdict.bias == "short" and sig.signal == Signal.LONG:
+                            logger.info(f"[{symbol}] funding bias SHORT vetoes LONG (fast)")
+                            continue
+                        if verdict.bias == "long" and sig.signal == Signal.SHORT:
+                            logger.info(f"[{symbol}] funding bias LONG vetoes SHORT (fast)")
+                            continue
+
+                # Fee-aware R:R check
+                side_str = sig.signal.value
+                cost_per_unit = (
+                    sig.entry_price * self.fee_model.round_trip_cost_pct(side_str)
+                    if INCLUDE_FEES_IN_RR else 0.0
+                )
+                if sig.signal == Signal.LONG:
+                    risk = sig.entry_price - sig.stop_loss + cost_per_unit
+                    reward = sig.take_profit - sig.entry_price - cost_per_unit
+                else:
+                    risk = sig.stop_loss - sig.entry_price + cost_per_unit
+                    reward = sig.entry_price - sig.take_profit - cost_per_unit
+
+                net_rr = (reward / risk) if risk > 0 else 0.0
+                if net_rr < CONFLUENCE_MIN_RR:
+                    logger.info(
+                        f"[{symbol}] {strategy.name} fast reject — net R:R={net_rr:.2f} < {CONFLUENCE_MIN_RR}"
+                    )
+                    continue
+
+                if best is None or sig.confidence > best.confidence:
+                    best = sig
+
+            except Exception as e:
+                logger.error(f"Fast strategy {strategy.name} error on {symbol}: {e}")
+
+        return best
 
     def evaluate(self, symbol: str, data: Dict[str, pd.DataFrame]) -> Optional[TradeSignal]:
         df_entry   = data.get("15m") if data.get("15m") is not None else data.get("5m")

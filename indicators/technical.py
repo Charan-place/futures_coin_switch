@@ -139,6 +139,83 @@ def add_bollinger(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+# ─── VWAP ────────────────────────────────────────────────────────────────────
+
+def add_vwap(df: pd.DataFrame) -> pd.DataFrame:
+    """VWAP with ±1σ and ±2σ bands. Key intraday reference for scalping."""
+    df = df.copy()
+    typical = (df["high"] + df["low"] + df["close"]) / 3
+    cum_vol  = df["volume"].cumsum()
+    cum_tpv  = (typical * df["volume"]).cumsum()
+    vwap_s   = cum_tpv / cum_vol.replace(0, np.nan)
+
+    # Rolling std of typical price × volume weight (approximate VWAP bands)
+    deviation  = (typical - vwap_s) ** 2
+    cum_dev    = (deviation * df["volume"]).cumsum()
+    vwap_std   = np.sqrt(cum_dev / cum_vol.replace(0, np.nan))
+
+    df["vwap"]       = vwap_s
+    df["vwap_upper"] = vwap_s + vwap_std
+    df["vwap_lower"] = vwap_s - vwap_std
+    # Distance from VWAP as fraction — positive = above, negative = below
+    df["vwap_dist_pct"] = (df["close"] - vwap_s) / vwap_s.replace(0, np.nan)
+    return df
+
+
+# ─── Supertrend ───────────────────────────────────────────────────────────────
+
+def add_supertrend(df: pd.DataFrame, period: int = 10,
+                   multiplier: float = 3.0) -> pd.DataFrame:
+    """Supertrend direction: +1 = bullish, -1 = bearish.
+    Fast-flipping trend indicator ideal for momentum scalping."""
+    df = df.copy()
+    atr_s = atr(df, period)
+    hl2   = (df["high"] + df["low"]) / 2
+    raw_upper = hl2 + multiplier * atr_s
+    raw_lower = hl2 - multiplier * atr_s
+
+    close  = df["close"].values
+    up_v   = raw_upper.values.copy()
+    lo_v   = raw_lower.values.copy()
+    st_v   = np.full(len(df), np.nan)
+    dir_v  = np.zeros(len(df), dtype=int)
+
+    for i in range(1, len(df)):
+        # Final upper: only tighten if current bar's raw upper is lower (or prior close broke above)
+        up_v[i] = raw_upper.iloc[i] if (raw_upper.iloc[i] < up_v[i-1] or close[i-1] > up_v[i-1]) else up_v[i-1]
+        lo_v[i] = raw_lower.iloc[i] if (raw_lower.iloc[i] > lo_v[i-1] or close[i-1] < lo_v[i-1]) else lo_v[i-1]
+
+        if close[i] > up_v[i-1]:
+            dir_v[i] = 1
+        elif close[i] < lo_v[i-1]:
+            dir_v[i] = -1
+        else:
+            dir_v[i] = dir_v[i-1]
+
+        st_v[i] = lo_v[i] if dir_v[i] == 1 else up_v[i]
+
+    df["supertrend"]     = st_v
+    df["supertrend_dir"] = dir_v
+    return df
+
+
+# ─── Stochastic RSI ───────────────────────────────────────────────────────────
+
+def add_stoch_rsi(df: pd.DataFrame, rsi_period: int = 14,
+                  stoch_period: int = 14, smooth_k: int = 3,
+                  smooth_d: int = 3) -> pd.DataFrame:
+    """StochRSI oscillator [0-100]. Faster signal than plain RSI.
+    stoch_k < 20 = oversold, > 80 = overbought."""
+    df  = df.copy()
+    rsi_s    = rsi(df["close"], rsi_period)
+    rsi_min  = rsi_s.rolling(stoch_period).min()
+    rsi_max  = rsi_s.rolling(stoch_period).max()
+    raw      = (rsi_s - rsi_min) / (rsi_max - rsi_min).replace(0, np.nan)
+    df["stoch_k"] = raw.rolling(smooth_k).mean() * 100
+    df["stoch_d"] = df["stoch_k"].rolling(smooth_d).mean()
+    return df
+
+
 # ─── Volume ───────────────────────────────────────────────────────────────────
 
 def add_volume_indicators(df: pd.DataFrame,
@@ -217,4 +294,7 @@ def enrich(df: pd.DataFrame) -> pd.DataFrame:
     df = add_bollinger(df)
     df = add_volume_indicators(df)
     df = add_sr_columns(df)
+    df = add_vwap(df)
+    df = add_supertrend(df)
+    df = add_stoch_rsi(df)
     return df

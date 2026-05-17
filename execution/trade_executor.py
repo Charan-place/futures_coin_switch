@@ -15,6 +15,7 @@ from risk.risk_manager import RiskManager, TradeRecord
 from config.settings import (
     IS_PAPER, DEFAULT_LEVERAGE, PARTIAL_TP_RATIO,
     PARTIAL_TP_AT_1R, MOVE_SL_TO_BE_AT_1R, PARTIAL_TP_AT_1R_RATIO,
+    USE_TRAILING_STOP, TRAILING_ACTIVATE_R, TRAILING_ATR_MULT,
 )
 from monitoring.logger import get_logger
 
@@ -43,6 +44,10 @@ class OpenTrade:
     partial_taken_at_1r: bool = False   # have we already scaled out at 1R?
     breakeven_active: bool = False      # has SL been moved to entry?
     realised_pnl: float = 0.0           # cumulative net PnL from partial closes so far
+    # Trailing stop state
+    trailing_active: bool = False       # trailing stop engaged?
+    trailing_high: float = 0.0          # highest favorable price seen since activation
+    trailing_low: float = float("inf")  # lowest favorable price seen since activation (shorts)
 
     @property
     def is_long(self) -> bool:
@@ -196,6 +201,51 @@ class TradeExecutor:
             price = current_prices.get(trade.symbol)
             if price is None:
                 continue
+
+            # ── Trailing stop: activate at TRAILING_ACTIVATE_R × risk ─────────
+            if USE_TRAILING_STOP and trade.atr > 0:
+                risk_unit = abs(trade.entry_price - trade.initial_stop_loss)
+                if risk_unit > 0:
+                    activate_price = (
+                        trade.entry_price + TRAILING_ACTIVATE_R * risk_unit
+                        if trade.is_long
+                        else trade.entry_price - TRAILING_ACTIVATE_R * risk_unit
+                    )
+                    # Activate trailing if price first hits the activation level
+                    if not trade.trailing_active:
+                        if (trade.is_long and price >= activate_price) or \
+                           (not trade.is_long and price <= activate_price):
+                            trade.trailing_active = True
+                            trade.trailing_high = price if trade.is_long else 0.0
+                            trade.trailing_low  = price if not trade.is_long else float("inf")
+                            logger.info(
+                                f"[PAPER] TRAIL ACTIVATED: {trade.symbol} {trade.side} "
+                                f"@ {price:.6g} ({TRAILING_ACTIVATE_R}R hit)"
+                            )
+
+                    # Ratchet trail: update high/low and compute new SL
+                    if trade.trailing_active:
+                        trail_offset = TRAILING_ATR_MULT * trade.atr
+                        if trade.is_long:
+                            if price > trade.trailing_high:
+                                trade.trailing_high = price
+                            new_trail_sl = trade.trailing_high - trail_offset
+                            if new_trail_sl > trade.stop_loss:
+                                old_sl = trade.stop_loss
+                                trade.stop_loss = new_trail_sl
+                                logger.info(
+                                    f"[PAPER] TRAIL UP: {trade.symbol} SL {old_sl:.6g}→{new_trail_sl:.6g}"
+                                )
+                        else:
+                            if price < trade.trailing_low:
+                                trade.trailing_low = price
+                            new_trail_sl = trade.trailing_low + trail_offset
+                            if new_trail_sl < trade.stop_loss:
+                                old_sl = trade.stop_loss
+                                trade.stop_loss = new_trail_sl
+                                logger.info(
+                                    f"[PAPER] TRAIL DN: {trade.symbol} SL {old_sl:.6g}→{new_trail_sl:.6g}"
+                                )
 
             # ── 1R milestone: scale out + move SL to breakeven (paper only) ──
             if PARTIAL_TP_AT_1R and not trade.partial_taken_at_1r:

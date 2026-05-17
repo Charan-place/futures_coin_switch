@@ -23,8 +23,9 @@ from datetime import datetime
 
 from config.settings import (
     TRADING_PAIRS, TRADING_MODE, IS_PAPER,
-    SIGNAL_CHECK_INTERVAL, POSITION_CHECK_INTERVAL,
-    PRIMARY_TF, CONFIRM_TF, TREND_TF,
+    SIGNAL_CHECK_INTERVAL, SCALP_CHECK_INTERVAL, POSITION_CHECK_INTERVAL,
+    PRIMARY_TF, CONFIRM_TF, TREND_TF, SCALP_TF,
+    STRATEGY_SCALP, STRATEGY_PUMP,
 )
 from core.api_client import CoinSwitchClient
 from core.data_fetcher import DataFetcher, PaperDataFetcher
@@ -32,7 +33,7 @@ from indicators.technical import enrich
 from strategies.confluence_engine import ConfluenceEngine
 from risk.risk_manager import RiskManager
 from execution.trade_executor import TradeExecutor
-from monitoring.dashboard import render_dashboard
+from monitoring.dashboard_simple import render_dashboard_simple
 from monitoring.logger import get_logger
 from monitoring.log_buffer import install_buffered_handler, silence_stdout_logging
 
@@ -73,9 +74,12 @@ class TradingBot:
             logger.info(f"No API key — using config fees: {self.risk_mgr.fee_model.describe()}")
 
         self._last_signal_scan = 0
+        self._last_scalp_scan  = 0
         self._last_position_check = 0
-        self._signal_cooldown: Dict[str, float] = {}   # symbol → last signal ts
-        self._signal_cooldown_secs = 300               # 5 min cooldown per symbol
+        self._signal_cooldown: Dict[str, float] = {}        # symbol → last swing signal ts
+        self._scalp_cooldown:  Dict[str, float] = {}        # symbol → last scalp signal ts
+        self._signal_cooldown_secs = 300                    # 5 min cooldown (swing)
+        self._scalp_cooldown_secs  = 90                     # 90 sec cooldown (scalp/pump)
 
     # ─── Main Loop ────────────────────────────────────────────────────────────
 
@@ -103,6 +107,12 @@ class TradingBot:
                     self._scan_signals()
                     self._last_signal_scan = now
 
+                # ── Fast scalp/pump scan (5m candles, every 20s) ──────────────
+                if (STRATEGY_SCALP or STRATEGY_PUMP) and \
+                        now - self._last_scalp_scan >= SCALP_CHECK_INTERVAL:
+                    self._scan_scalp_signals()
+                    self._last_scalp_scan = now
+
                 # ── Check positions (paper only) ──────────────────────────────
                 if now - self._last_position_check >= POSITION_CHECK_INTERVAL:
                     self._check_positions()
@@ -110,11 +120,10 @@ class TradingBot:
 
                 # ── Render dashboard ──────────────────────────────────────────
                 current_prices = self._get_current_prices()
-                render_dashboard(
+                render_dashboard_simple(
                     self.risk_mgr,
                     self.executor.open_trades,
                     current_prices,
-                    self.signal_log,
                     self.mode,
                 )
 
@@ -126,68 +135,73 @@ class TradingBot:
     # ─── Signal Scanning ──────────────────────────────────────────────────────
 
     def _scan_signals(self):
-        logger.info(f"━━ Scan start: {len(TRADING_PAIRS)} pairs ━━")
         now = time.time()
 
         for symbol in TRADING_PAIRS:
             already_open = any(t.symbol == symbol
                                for t in self.executor.open_trades.values())
             if already_open:
-                logger.info(f"[{symbol}] skip — position already open")
                 continue
 
             last_sig_ts = self._signal_cooldown.get(symbol, 0)
             if now - last_sig_ts < self._signal_cooldown_secs:
-                remaining = int(self._signal_cooldown_secs - (now - last_sig_ts))
-                logger.info(f"[{symbol}] skip — cooldown {remaining}s")
                 continue
 
             try:
-                logger.info(f"[{symbol}] fetching candles {PRIMARY_TF}/{CONFIRM_TF}/{TREND_TF}")
                 data = self._fetch_enriched(symbol)
                 if not data:
-                    logger.info(f"[{symbol}] no candles — skipping")
                     continue
-                tfs_loaded = ",".join(data.keys())
-                last = data.get(PRIMARY_TF)
-                if last is None:
-                    last = next(iter(data.values()))
-                last_row = last.iloc[-1]
-                last_close = float(last_row["close"])
-                last_adx   = float(last_row["adx"])       if "adx"       in last.columns else 0.0
-                last_rsi   = float(last_row["rsi"])       if "rsi"       in last.columns else 50.0
-                last_volr  = float(last_row["vol_ratio"]) if "vol_ratio" in last.columns else 1.0
-                logger.info(
-                    f"[{symbol}] enriched [{tfs_loaded}] price={last_close:.6g} "
-                    f"ADX={last_adx:.1f} RSI={last_rsi:.1f} vol={last_volr:.2f}x"
-                )
 
                 signal = self.confluence.evaluate(symbol, data)
 
                 if signal:
                     self._signal_cooldown[symbol] = time.time()
-                    msg = (f"[{datetime.utcnow().strftime('%H:%M:%S')}] "
-                           f"{signal.signal.value} {symbol} | "
-                           f"conf={signal.confidence:.2f} | {signal.reason[:60]}")
-                    self.signal_log.append(msg)
-                    logger.info(f"[{symbol}] SIGNAL FIRED: {signal.signal.value} "
-                                f"conf={signal.confidence:.2f} R:R={signal.risk_reward:.2f}")
-
                     trade = self.executor.execute_signal(signal)
                     if trade:
-                        entry_msg = (f"TRADE OPENED: {trade.trade_id} "
-                                     f"{trade.side} {symbol} @ {trade.entry_price:.6g} "
-                                     f"SL={trade.stop_loss:.6g} TP={trade.take_profit:.6g}")
-                        self.signal_log.append(entry_msg)
-                        logger.info(entry_msg)
-                    else:
-                        logger.info(f"[{symbol}] signal rejected by executor (sizing/cost)")
-                else:
-                    logger.info(f"[{symbol}] no qualifying setup")
+                        logger.warning(
+                            f"TRADE: {trade.trade_id} {trade.side} {symbol} "
+                            f"@ {trade.entry_price:.6g} | SL={trade.stop_loss:.6g} TP={trade.take_profit:.6g} "
+                            f"| {signal.strategy_name}"
+                        )
 
             except Exception as e:
                 logger.error(f"[{symbol}] scan error: {e}")
-        logger.info("━━ Scan complete ━━")
+
+    # ─── Scalp / Pump Signal Scanning ────────────────────────────────────────
+
+    def _scan_scalp_signals(self):
+        """Fast scan using 5m candles for SCALP_MOMENTUM and PUMP_DETECTOR."""
+        now = time.time()
+        for symbol in TRADING_PAIRS:
+            already_open = any(t.symbol == symbol
+                               for t in self.executor.open_trades.values())
+            if already_open:
+                continue
+
+            last_scalp_ts = self._scalp_cooldown.get(symbol, 0)
+            if now - last_scalp_ts < self._scalp_cooldown_secs:
+                continue
+
+            try:
+                df_5m = self.fetcher.get_ohlcv(symbol, SCALP_TF)
+                if df_5m is None or len(df_5m) < 50:
+                    continue
+
+                df_5m = enrich(df_5m)
+                signal = self.confluence.evaluate_fast(symbol, df_5m)
+
+                if signal:
+                    self._scalp_cooldown[symbol] = time.time()
+                    trade = self.executor.execute_signal(signal)
+                    if trade:
+                        logger.warning(
+                            f"FAST TRADE: {trade.trade_id} {trade.side} {symbol} "
+                            f"@ {trade.entry_price:.6g} | SL={trade.stop_loss:.6g} TP={trade.take_profit:.6g} "
+                            f"| {signal.strategy_name}"
+                        )
+
+            except Exception as e:
+                logger.error(f"[{symbol}] scalp scan error: {e}")
 
     # ─── Position Monitoring ──────────────────────────────────────────────────
 

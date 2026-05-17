@@ -51,6 +51,9 @@ STRATEGY_EMA_RSI = os.getenv("STRATEGY_EMA_RSI", "true").lower() == "true"
 STRATEGY_BREAKOUT = os.getenv("STRATEGY_BREAKOUT", "true").lower() == "true"
 STRATEGY_MTF_TREND = os.getenv("STRATEGY_MTF_TREND", "true").lower() == "true"
 STRATEGY_SR_BOUNCE = os.getenv("STRATEGY_SR_BOUNCE", "true").lower() == "true"
+# Scalp + Pump strategies operate on 5m candles with faster scan interval
+STRATEGY_SCALP = os.getenv("STRATEGY_SCALP", "true").lower() == "true"
+STRATEGY_PUMP  = os.getenv("STRATEGY_PUMP",  "true").lower() == "true"
 # ─── Selectivity profile ──────────────────────────────────────────────────────
 # WIN_RATE_MODE = trade fewer, higher-quality setups. Pre-sets the gates below.
 #   true  → favor win-rate (2-vote confluence, trend-aligned SR, partial @ 1R)
@@ -119,10 +122,11 @@ SR_PROXIMITY_PCT      = 0.010  # 1.0% — "near" a level (meme coins are volatil
 SR_SL_BUFFER_PCT      = 0.005  # 0.5% beyond the level for SL
 
 # ─── Timeframes ───────────────────────────────────────────────────────────────
-PRIMARY_TF = "15m"       # main trading timeframe
-CONFIRM_TF = "1h"        # confirmation timeframe
-TREND_TF = "4h"          # trend definition timeframe
-EXECUTION_TF = "5m"      # entry precision timeframe
+PRIMARY_TF   = "15m"    # swing strategy entry timeframe
+CONFIRM_TF   = "1h"     # confirmation timeframe
+TREND_TF     = "4h"     # trend definition timeframe
+SCALP_TF     = "5m"     # scalp + pump strategy timeframe (fast signals)
+EXECUTION_TF = "5m"     # entry precision timeframe
 
 CANDLE_LIMIT = 200       # candles to fetch per timeframe
 
@@ -187,9 +191,21 @@ BACKTEST_APPLY_FEES    = os.getenv("BACKTEST_APPLY_FEES",    "true").lower() == 
 # ─── Logging / Monitoring ─────────────────────────────────────────────────────
 LOG_DIR = "logs"
 DATA_DIR = "data"
-LOG_LEVEL = "INFO"
+LOG_LEVEL = "WARNING"  # Only show warnings/errors, suppress INFO spam (still logs to file)
+
+# ─── Trailing Stop ────────────────────────────────────────────────────────────
+# After price hits 2R, activate trailing stop that trails 1 ATR behind.
+# Critical for riding meme coin pumps (10-50%+ moves) instead of exiting too early.
+USE_TRAILING_STOP      = os.getenv("USE_TRAILING_STOP", "true").lower() == "true"
+TRAILING_ACTIVATE_R    = float(os.getenv("TRAILING_ACTIVATE_R", "2.0"))   # activate at 2R
+TRAILING_ATR_MULT      = float(os.getenv("TRAILING_ATR_MULT",   "1.0"))   # trail 1 ATR behind
+
+# ─── Supertrend ───────────────────────────────────────────────────────────────
+SUPERTREND_PERIOD     = int(os.getenv("SUPERTREND_PERIOD", "10"))
+SUPERTREND_MULTIPLIER = float(os.getenv("SUPERTREND_MULT", "3.0"))
 
 # ─── Polling Intervals ────────────────────────────────────────────────────────
-SIGNAL_CHECK_INTERVAL = 60     # seconds between signal scans
-POSITION_CHECK_INTERVAL = 30   # seconds between position checks
-MARKET_DATA_INTERVAL = 10      # seconds between price updates
+SIGNAL_CHECK_INTERVAL  = 45    # seconds between SWING signal scans (15m candles)
+SCALP_CHECK_INTERVAL   = 10    # seconds between SCALP/PUMP signal scans (5m candles) — faster
+POSITION_CHECK_INTERVAL = 5    # seconds between position checks (tighter for scalps)
+MARKET_DATA_INTERVAL   = 5     # seconds between price updates

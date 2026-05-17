@@ -28,8 +28,46 @@ python main.py
 **Optional:** starting paper balance (default `1000`):
 
 ```bash
-python main.py --paper --balance 1000
+python main.py --paper --balance 5000
 ```
+
+### Scalp + Pump strategies (NEW — 5m fast scan)
+
+Bot runs **two scan loops in parallel**:
+- **Swing scan** (60s): 15m candles, EMA+RSI+Breakout+MTF+SR (unchanged)
+- **Scalp/Pump scan** (20s): 5m candles, SCALP_MOMENTUM + PUMP_DETECTOR
+
+**Enabled by default** in `.env`. Both run automatically:
+
+```bash
+python main.py --paper --balance 5000
+# No special flag needed — bot does swing + scalp in parallel
+```
+
+**To disable scalp/pump** (run swing-only):
+
+```bash
+# Add to .env or pass env vars:
+STRATEGY_SCALP=false STRATEGY_PUMP=false python main.py --paper
+```
+
+**Scalp strategy** (5m candles):
+- Entry: Supertrend bullish + price above VWAP + StochRSI turning from oversold
+- Volume: >1.8× average (real momentum, not noise)
+- SL: 0.6 ATR (tight — cut losers fast)
+- TP: 2.0 ATR (realistic after India fees)
+
+**Pump detector** (5m candles):
+- Entry: Volume spike >3× + price velocity ≥0.8% per 3 bars + VWAP reclaim
+- RSI: 40-68 (not extended, good for early entry)
+- SL: bar low (tighter on high-conviction pump)
+- TP: 4.0 ATR (ride the wave like Pentoshi)
+
+**Trailing stop** (both strategies):
+- Activates at 2R (price moved 2× your risk distance)
+- Trails 1 ATR behind highest favorable price
+- Automatic ratchet — never trails against position
+- Critical for riding 10-50% meme pumps
 
 ---
 
@@ -47,8 +85,13 @@ python main.py --live
 **Optional:** explicit starting balance reference for risk sizing in paper-like accounting where applicable:
 
 ```bash
-python main.py --live --balance 1000
+python main.py --live --balance 5000
 ```
+
+**⚠️ WARNING:** Live mode executes REAL orders with real money. Start with small `--balance` (e.g., `5000` USDT). Verify:
+1. `.env` has **valid** API keys (test with paper mode first)
+2. CoinSwitch account has funds
+3. You've reviewed fee structure (1-1.3% round-trip at 10x leverage)
 
 Stop the bot with **Ctrl+C**.
 

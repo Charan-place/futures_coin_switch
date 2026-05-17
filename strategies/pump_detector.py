@@ -74,9 +74,22 @@ class PumpDetectorStrategy(BaseStrategy):
         wick_ok_long  = bar_range > 0 and (lower_wick / bar_range) < 0.5
         wick_ok_short = bar_range > 0 and (upper_wick / bar_range) < 0.5
 
+        # Candle body quality — real pump has body, not just wick spike
+        body = abs(float(row["close"]) - float(row["open"]))
+        real_body = (body / bar_range) > 0.40 if bar_range > 0 else False
+
+        # RSI direction
+        rsi_prev = float(prev.get("rsi", rsi_val))
+        rsi_rising  = rsi_val > rsi_prev
+        rsi_falling = rsi_val < rsi_prev
+
+        # Volume sustained: previous bar must also be elevated (not 1-bar noise spike)
+        vol_ratio_prev = float(prev.get("vol_ratio", 0))
+        vol_sustained = vol_ratio >= PUMP_VOL_SPIKE and vol_ratio_prev >= 1.5
+
         # Volume gate — hard requirement for pump detection
-        if vol_ratio < PUMP_VOL_SPIKE:
-            return self._no_signal(symbol, f"vol={vol_ratio:.2f}x < {PUMP_VOL_SPIKE}x (no pump volume)")
+        if not vol_sustained:
+            return self._no_signal(symbol, f"vol={vol_ratio:.2f}x (prev={vol_ratio_prev:.2f}x) — need sustained volume, not 1-bar spike")
 
         # ── PUMP (LONG) ───────────────────────────────────────────────────────
         above_vwap   = price > vwap
@@ -85,9 +98,11 @@ class PumpDetectorStrategy(BaseStrategy):
 
         if (velocity >= PUMP_VELOCITY_PCT
                 and PUMP_RSI_LOW <= rsi_val <= PUMP_RSI_HIGH
+                and rsi_rising
                 and (above_vwap or vwap_reclaim)
                 and st_ok_long
-                and wick_ok_long):
+                and wick_ok_long
+                and real_body):
             # SL: below current bar's low OR 0.8 ATR, whichever is LOWER (tighter)
             low_sl = float(row["low"])
             atr_sl = price - PUMP_SL_ATR * atr_val
@@ -120,9 +135,11 @@ class PumpDetectorStrategy(BaseStrategy):
 
         if (velocity <= DUMP_VELOCITY_PCT
                 and DUMP_RSI_LOW <= rsi_val <= DUMP_RSI_HIGH
+                and rsi_falling
                 and (below_vwap or vwap_loss)
                 and st_ok_short
-                and wick_ok_short):
+                and wick_ok_short
+                and real_body):
             high_sl = float(row["high"])
             atr_sl  = price + PUMP_SL_ATR * atr_val
             sl      = min(high_sl, atr_sl)

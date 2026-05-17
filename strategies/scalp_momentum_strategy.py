@@ -42,6 +42,7 @@ class ScalpMomentumStrategy(BaseStrategy):
 
         row  = df.iloc[-1]
         prev = df.iloc[-2]
+        prev2 = df.iloc[-3] if len(df) >= 3 else prev
 
         price     = float(row["close"])
         atr_val   = float(row["atr"]) if float(row["atr"]) > 0 else price * 0.01
@@ -50,9 +51,11 @@ class ScalpMomentumStrategy(BaseStrategy):
         stoch_k   = float(row["stoch_k"])
         stoch_k_p = float(prev["stoch_k"])
         stoch_d   = float(row["stoch_d"])
+        stoch_d_p = float(prev["stoch_d"])
         vol_ratio = float(row["vol_ratio"])
         macd_hist = float(row.get("macd_hist", 0))
         rsi_val   = float(row.get("rsi", 50))
+        rsi_prev  = float(prev.get("rsi", 50))
 
         if np.isnan(vwap) or np.isnan(stoch_k) or np.isnan(stoch_d):
             return self._no_signal(symbol, "NaN in scalp indicators")
@@ -61,16 +64,26 @@ class ScalpMomentumStrategy(BaseStrategy):
         if vol_ratio < SCALP_VOL_MIN:
             return self._no_signal(symbol, f"vol={vol_ratio:.2f}x < {SCALP_VOL_MIN}x (no momentum)")
 
+        # False breakout filter: candle body must be >35% of range (real move, not wick spike)
+        candle_range = float(row["high"]) - float(row["low"])
+        body = abs(float(row["close"]) - float(row["open"]))
+        real_body = (body / candle_range) > 0.35 if candle_range > 0 else False
+        if not real_body:
+            return self._no_signal(symbol, f"wick-dominated bar (body={body/candle_range*100:.0f}% of range) — skip false breakout")
+
         # ── LONG: Supertrend bullish + price above VWAP + StochK turning up ──
         above_vwap   = price > vwap
         st_bullish   = st_dir == 1
+        # StochK crossed above StochD = real turn, not noise
+        stoch_cross_up   = stoch_k > stoch_d and stoch_k_p <= stoch_d_p
         stoch_turning_up = stoch_k > stoch_k_p and stoch_k < STOCH_OVERBOUGHT
-        stoch_was_low = stoch_k_p < STOCH_OVERSOLD + 15   # was depressed, now recovering
+        stoch_was_low = stoch_k_p < STOCH_OVERSOLD      # tighter: was truly oversold
         macd_pos     = macd_hist > 0
-        rsi_ok_long  = 40 < rsi_val < 75   # not extended
+        rsi_ok_long  = 40 < rsi_val < 72
+        rsi_rising   = rsi_val > rsi_prev               # RSI must be building momentum
 
-        if (st_bullish and above_vwap and stoch_turning_up
-                and stoch_was_low and rsi_ok_long):
+        if (st_bullish and above_vwap and (stoch_cross_up or (stoch_turning_up and stoch_was_low))
+                and rsi_ok_long and rsi_rising):
             sl = max(price - SCALP_SL_ATR * atr_val, float(row["low"]))
             tp = price + SCALP_TP_ATR * atr_val
             conf = self._confidence(vol_ratio, stoch_k, "long", macd_pos, above_vwap)
@@ -93,13 +106,16 @@ class ScalpMomentumStrategy(BaseStrategy):
         # ── SHORT: Supertrend bearish + price below VWAP + StochK turning down ──
         below_vwap   = price < vwap
         st_bearish   = st_dir == -1
-        stoch_turning_dn  = stoch_k < stoch_k_p and stoch_k > STOCH_OVERSOLD - 15
-        stoch_was_high    = stoch_k_p > STOCH_OVERBOUGHT - 15
+        # StochK crossed below StochD = real turn, not noise
+        stoch_cross_dn    = stoch_k < stoch_d and stoch_k_p >= stoch_d_p
+        stoch_turning_dn  = stoch_k < stoch_k_p and stoch_k > STOCH_OVERSOLD
+        stoch_was_high    = stoch_k_p > STOCH_OVERBOUGHT   # tighter: was truly overbought
         macd_neg          = macd_hist < 0
-        rsi_ok_short      = 25 < rsi_val < 60
+        rsi_ok_short      = 28 < rsi_val < 60
+        rsi_falling       = rsi_val < rsi_prev              # RSI must be losing momentum
 
-        if (st_bearish and below_vwap and stoch_turning_dn
-                and stoch_was_high and rsi_ok_short):
+        if (st_bearish and below_vwap and (stoch_cross_dn or (stoch_turning_dn and stoch_was_high))
+                and rsi_ok_short and rsi_falling):
             sl = min(price + SCALP_SL_ATR * atr_val, float(row["high"]))
             tp = price - SCALP_TP_ATR * atr_val
             conf = self._confidence(vol_ratio, stoch_k, "short", macd_neg, below_vwap)

@@ -1,0 +1,208 @@
+{
+  "created_at": "2026-05-17T06:04:42.437517Z",
+  "saved_at": "2026-05-17T13:21:57.326083Z",
+  "global_trades": 3,
+  "global_pnl": -0.3749,
+  "arms": {
+    "SR_BOUNCE::1000PEPEUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SR_BOUNCE::FIGHTUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SR_BOUNCE::GALAUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SR_BOUNCE::XANUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SR_BOUNCE::1000BONKUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SR_BOUNCE::JCTUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SR_BOUNCE::PENGUUSDT": {
+      "trials": 1,
+      "wins": 0,
+      "losses": 1,
+      "ewma_winrate": 0.35,
+      "ewma_r_multiple": -0.6416402980132598,
+      "last_update": "2026-05-17T10:12:43.547680Z"
+    },
+    "SR_BOUNCE::MEMEUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SCALP_MOMENTUM::TRUUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SR_BOUNCE::BLESSUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SR_BOUNCE::GPSUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "EMA_RSI::XANUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SR_BOUNCE::BOMEUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SCALP_MOMENTUM::GALAUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "EMA_RSI::FIGHTUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "EMA_RSI::PENGUUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "EMA_RSI::MEMEUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "EMA_RSI::GPSUSDT": {
+      "trials": 1,
+      "wins": 0,
+      "losses": 1,
+      "ewma_winrate": 0.35,
+      "ewma_r_multiple": -0.054006686634501345,
+      "last_update": "2026-05-17T13:21:57.318004Z"
+    },
+    "MTF_TREND::GPSUSDT": {
+      "trials": 1,
+      "wins": 0,
+      "losses": 1,
+      "ewma_winrate": 0.35,
+      "ewma_r_multiple": -0.054006686634501345,
+      "last_update": "2026-05-17T13:21:57.326067Z"
+    },
+    "EMA_RSI::BOMEUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "EMA_RSI::1000PEPEUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "EMA_RSI::1000BONKUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "EMA_RSI::GALAUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SCALP_MOMENTUM::JCTUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    },
+    "SCALP_MOMENTUM::FIGHTUSDT": {
+      "trials": 0,
+      "wins": 0,
+      "losses": 0,
+      "ewma_winrate": 0.5,
+      "ewma_r_multiple": 0.0,
+      "last_update": ""
+    }
+  }
+}
